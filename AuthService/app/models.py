@@ -1,12 +1,15 @@
 from .extensions import db
 from werkzeug.security import generate_password_hash, check_password_hash
 import uuid
+from sqlalchemy.dialects.postgresql import ARRAY
 
 class User(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     public_id = db.Column(db.String(50), unique=True, nullable=False, default = lambda: str(uuid.uuid4()))
     username = db.Column(db.String(50), unique=True, nullable=False)
-    password_hash = db.Column(db.String(128), nullable=False)
+    password_hash = db.Column(db.String(256), nullable=False)
+    
+    roles = db.Column(ARRAY(db.String), default=[])
     
     def set_password(self, password):
         self.password_hash = generate_password_hash(password)
