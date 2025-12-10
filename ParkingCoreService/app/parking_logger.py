@@ -21,6 +21,6 @@ logging.basicConfig(
 handler = logging.StreamHandler()
 # handler.setFormatter(formatter)
 
-auth_logger = logging.getLogger('parking_auth_logger')
-auth_logger.setLevel(logging.INFO)
-auth_logger.addHandler(handler)
+parking_logger = logging.getLogger('parking_core_logger')
+parking_logger.setLevel(logging.INFO)
+parking_logger.addHandler(handler)
