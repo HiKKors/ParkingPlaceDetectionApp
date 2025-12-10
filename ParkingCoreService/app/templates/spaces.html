@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=80842b69-5d43-45e4-bd58-51f372f4f673&lang=ru_RU"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="map" style="width: 100%; height: 500px;"></div>
+
+    <script>
+        ymaps.ready(function () {
+            var map = new ymaps.Map("map", {
+                center: [55.751574, 37.573856],
+                zoom: 12
+            });
+
+            // Загружаем парковки и добавляем метки
+            fetch('/parking/parkings')
+                .then(response => response.json())
+                .then(parkings => {
+                    parkings.forEach(parking => {
+                        var placemark = new ymaps.Placemark(
+                            [parking.lat, parking.lon],
+                            {
+                                balloonContent: `
+                                    <div>
+                                        <h3>${parking.address}</h3>
+                                        <p>Цена: ${parking.price_per_hour}₽/час</p>
+                                        <button onclick="addToFavorites(${parking.id})">В избранное</button>
+                                    </div>
+                                `
+                            },
+                            {
+                                preset: 'islands#blueCircleDotIcon'
+                            }
+                        );
+                        map.geoObjects.add(placemark);
+                    });
+                });
+        });
+
+        function addToFavorites(parkingId) {
+            // Проверяем наличие JWT токена в localStorage
+            const token = localStorage.getItem('access_token');
+            if (!token) {
+                alert('Нужно войти в систему');
+                window.location.href = '/login';  // Редирект на логин
+                return;
+            }
+
+            fetch('/api/parking/favorites', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Authorization': `Bearer ${token}`
+                },
+                body: JSON.stringify({
+                    parking_spot_id: parkingId
+                })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.msg === 'Добавлено в избранное') {
+                    alert('Добавлено в избранное!');
+                } else {
+                    alert(data.msg);
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                alert('Ошибка добавления');
+            });
+        }
+            </script>
+</body>
+</html>
