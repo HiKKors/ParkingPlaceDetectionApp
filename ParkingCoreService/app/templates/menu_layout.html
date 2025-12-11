@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% block style %}
+    <link rel="stylesheet" href="../static//css/main_menu.css">
+    {% endblock %}
+    {% block scripts %}{% endblock %}
+    <title>{% block title %}{% endblock %}</title>
+</head>
+<body>
+    <nav class="main-menu">
+        <ul>
+            <li class="has-subnav">
+                <a href="/parking/">
+                    <span class="nav-text">Главная</span>
+                </a>
+            </li>
+            <li class="has-subnav">
+                <a href="/parking/spaces">
+                    <span class="nav-text">Все парковки</span>
+                </a>
+            </li>
+            <li class="has-subnav">
+                <a href="">
+                    <span class="nav-text">Избранные парковки</span>
+                </a>
+            </li>
+            <li class="has-subnav">
+                <a href="">
+                    <span class="nav-text">Профиль</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    {% block content %}
+    {% endblock %}
+
+    <!-- Блок дополнительного js -->
+    {% block extra_js %}
+    {% endblock %}
+</body>
+</html>
