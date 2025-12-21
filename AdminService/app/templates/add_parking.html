@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Админка — добавление парковки</title>
+
+    <!-- Яндекс Карты -->
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=80842b69-5d43-45e4-bd58-51f372f4f673&lang=ru_RU"></script>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            height: 100vh;
+        }
+
+        #map {
+            flex: 3;
+        }
+
+        .panel {
+            flex: 1;
+            padding: 20px;
+            box-shadow: -2px 0 5px rgba(0,0,0,0.1);
+        }
+
+        .panel h2 {
+            margin-top: 0;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+        }
+        #afterSaveModal button {
+            width: 100%;
+            padding: 10px;
+            font-size: 15px;
+            border: none;
+            cursor: pointer;
+        }
+
+        #goToAnnotationBtn {
+            background-color: #007bff;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<div id="map"></div>
+
+<div class="panel">
+    <h2>Добавить парковку</h2>
+
+    <div class="form-group">
+        <label>Адрес</label>
+        <input type="text" id="address" readonly>
+    </div>
+
+    <div class="form-group">
+        <label>Цена за час (₽)</label>
+        <input type="number" id="price" step="0.1" min="0">
+    </div>
+
+    <div class="form-group">
+        <label>Широта</label>
+        <input type="text" id="lat" readonly>
+    </div>
+
+    <div class="form-group">
+        <label>Долгота</label>
+        <input type="text" id="lon" readonly>
+    </div>
+
+    <button id="saveBtn" disabled>Добавить парковку</button>
+</div>
+
+<div id="afterSaveModal" style="
+    display:none;
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background: rgba(0,0,0,0.5);
+    align-items: center;
+    justify-content: center;
+">
+    <div style="
+        background: white;
+        padding: 20px;
+        width: 320px;
+        border-radius: 6px;
+        text-align: center;
+    ">
+        <h3>Парковка добавлена</h3>
+        <p>Хотите сразу создать разметку?</p>
+
+        <button id="goToAnnotationBtn" style="margin-bottom:10px;">
+            Перейти к разметке
+        </button>
+
+        <button id="laterBtn" style="
+            background:#ccc;
+            color:black;
+        ">
+            Позже
+        </button>
+    </div>
+</div>
+
+
+<script>
+    let map;
+    let placemark = null;
+    let selectedCoords = null;
+    let createdParkingId = null;
+
+    ymaps.ready(init);
+
+    function init() {
+        map = new ymaps.Map("map", {
+            center: [55.7558, 37.6173], // Москва
+            zoom: 11
+        });
+
+        map.events.add('click', onMapClick);
+    }
+
+    function onMapClick(e) {
+        const coords = e.get('coords');
+        selectedCoords = coords;
+
+        if (placemark) {
+            map.geoObjects.remove(placemark);
+        }
+
+        placemark = new ymaps.Placemark(coords, {}, {
+            preset: 'islands#redIcon'
+        });
+
+        map.geoObjects.add(placemark);
+
+        document.getElementById('lat').value = coords[0].toFixed(6);
+        document.getElementById('lon').value = coords[1].toFixed(6);
+
+        getAddress(coords);
+    }
+
+    function getAddress(coords) {
+        ymaps.geocode(coords).then(result => {
+            const firstGeoObject = result.geoObjects.get(0);
+            const address = firstGeoObject.getAddressLine();
+
+            document.getElementById('address').value = address;
+            document.getElementById('saveBtn').disabled = false;
+        });
+    }
+
+    document.getElementById('saveBtn').addEventListener('click', () => {
+        const data = {
+            address: document.getElementById('address').value,
+            price_per_hour: parseFloat(document.getElementById('price').value),
+            lat: parseFloat(document.getElementById('lat').value),
+            lon: parseFloat(document.getElementById('lon').value)
+        };
+
+        if (!data.price_per_hour) {
+            alert("Введите цену за час");
+            return;
+        }
+
+        fetch('/admin/add-parking', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                // 'Authorization': 'Bearer TOKEN'  // если понадобится
+            },
+            body: JSON.stringify(data)
+        })
+        .then(res => {
+            if (!res.ok) throw new Error("Ошибка сохранения");
+            return res.json();
+        })
+        .then(data => {
+            createdParkingId = data.id;
+            showAfterSaveModal();
+        })
+        .catch(err => {
+            alert(err.message);
+        });
+    });
+
+    function showAfterSaveModal() {
+        document.getElementById('afterSaveModal').style.display = 'flex';
+        };
+
+        document.getElementById('goToAnnotationBtn').addEventListener('click', () => {
+        console.log("goToAnnotationBtn clicked");
+
+        if (!createdParkingId) {
+            console.error("createdParkingId отсутствует");
+            return;
+        }
+
+        fetch(`/admin/parking/${createdParkingId}/start-annotation`, {
+            method: 'POST'
+        })
+        .then(res => {
+            if (!res.ok) {
+                throw new Error("Ошибка запуска разметки");
+            }
+            return res.json();
+        })
+        .then(data => {
+            alert(data.message || 'Окно разметки запущено');
+        })
+        .catch(err => {
+            console.error(err);
+            alert("Не удалось запустить разметку");
+        });
+    });
+
+
+    document.getElementById('laterBtn').addEventListener('click', () => {
+        document.getElementById('afterSaveModal').style.display = 'none';
+        resetForm();
+        createdParkingId = null;
+    });
+
+
+    function resetForm() {
+        if (placemark) {
+            map.geoObjects.remove(placemark);
+            placemark = null;
+        }
+
+        document.getElementById('address').value = '';
+        document.getElementById('price').value = '';
+        document.getElementById('lat').value = '';
+        document.getElementById('lon').value = '';
+        document.getElementById('saveBtn').disabled = true;
+    }
+</script>
+
+</body>
+</html>
