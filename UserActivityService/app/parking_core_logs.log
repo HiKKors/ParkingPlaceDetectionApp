@@ -1,0 +1,54 @@
+2025-12-23 17:45:27,486 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5003
+2025-12-23 17:45:27,487 werkzeug INFO [33mPress CTRL+C to quit[0m
+2025-12-23 17:45:27,489 werkzeug INFO  * Restarting with stat
+2025-12-23 17:45:28,330 werkzeug WARNING  * Debugger is active!
+2025-12-23 17:45:28,338 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-23 18:02:25,882 werkzeug INFO 127.0.0.1 - - [23/Dec/2025 18:02:25] "GET /user-activity/send-feedback HTTP/1.1" 200 -
+2025-12-23 18:02:26,083 werkzeug INFO 127.0.0.1 - - [23/Dec/2025 18:02:26] "GET /static/css/main_menu.css HTTP/1.1" 200 -
+2025-12-23 18:02:26,305 werkzeug INFO 127.0.0.1 - - [23/Dec/2025 18:02:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-23 18:13:43,662 werkzeug INFO 127.0.0.1 - - [23/Dec/2025 18:13:43] "GET /user-activity/send-feedback HTTP/1.1" 200 -
+2025-12-23 18:13:43,698 werkzeug INFO 127.0.0.1 - - [23/Dec/2025 18:13:43] "[36mGET /static/css/main_menu.css HTTP/1.1[0m" 304 -
+2025-12-23 18:14:58,232 werkzeug INFO 127.0.0.1 - - [23/Dec/2025 18:14:58] "GET /user-activity/send-feedback HTTP/1.1" 200 -
+2025-12-23 18:14:58,284 werkzeug INFO 127.0.0.1 - - [23/Dec/2025 18:14:58] "[36mGET /static/css/main_menu.css HTTP/1.1[0m" 304 -
+2025-12-23 18:21:30,391 werkzeug INFO 127.0.0.1 - - [23/Dec/2025 18:21:30] "GET /user-activity/send-feedback HTTP/1.1" 200 -
+2025-12-23 18:21:30,434 werkzeug INFO 127.0.0.1 - - [23/Dec/2025 18:21:30] "[36mGET /static/css/main_menu.css HTTP/1.1[0m" 304 -
+2025-12-23 18:22:04,735 werkzeug INFO 127.0.0.1 - - [23/Dec/2025 18:22:04] "GET /user-activity/send-feedback HTTP/1.1" 200 -
+2025-12-23 18:22:05,024 werkzeug INFO 127.0.0.1 - - [23/Dec/2025 18:22:05] "[36mGET /static/css/main_menu.css HTTP/1.1[0m" 304 -
+2025-12-23 18:22:11,693 werkzeug INFO 127.0.0.1 - - [23/Dec/2025 18:22:11] "GET /user-activity/send-feedback HTTP/1.1" 200 -
+2025-12-23 18:22:11,731 werkzeug INFO 127.0.0.1 - - [23/Dec/2025 18:22:11] "[36mGET /static/css/main_menu.css HTTP/1.1[0m" 304 -
+2025-12-23 18:22:34,149 werkzeug INFO 127.0.0.1 - - [23/Dec/2025 18:22:34] "GET /user-activity/send-feedback HTTP/1.1" 200 -
+2025-12-23 18:22:34,448 werkzeug INFO 127.0.0.1 - - [23/Dec/2025 18:22:34] "[36mGET /static/css/main_menu.css HTTP/1.1[0m" 304 -
+2025-12-23 18:23:48,695 werkzeug INFO 127.0.0.1 - - [23/Dec/2025 18:23:48] "GET /user-activity/send-feedback HTTP/1.1" 200 -
+2025-12-23 18:23:48,759 werkzeug INFO 127.0.0.1 - - [23/Dec/2025 18:23:48] "[36mGET /static/css/main_menu.css HTTP/1.1[0m" 304 -
+2025-12-23 18:25:12,153 werkzeug INFO 127.0.0.1 - - [23/Dec/2025 18:25:12] "GET /user-activity/send-feedback HTTP/1.1" 200 -
+2025-12-23 18:25:12,204 werkzeug INFO 127.0.0.1 - - [23/Dec/2025 18:25:12] "[36mGET /static/css/main_menu.css HTTP/1.1[0m" 304 -
+2025-12-24 14:39:01,155 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5003
+2025-12-24 14:39:01,156 werkzeug INFO [33mPress CTRL+C to quit[0m
+2025-12-24 14:39:01,160 werkzeug INFO  * Restarting with stat
+2025-12-24 14:39:02,091 werkzeug WARNING  * Debugger is active!
+2025-12-24 14:39:02,100 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-24 14:39:12,828 werkzeug INFO 127.0.0.1 - - [24/Dec/2025 14:39:12] "GET /user-activity/send-feedback HTTP/1.1" 200 -
+2025-12-24 14:39:12,964 werkzeug INFO 127.0.0.1 - - [24/Dec/2025 14:39:12] "GET /static/css/main_menu.css HTTP/1.1" 200 -
+2025-12-24 14:39:14,029 werkzeug INFO 127.0.0.1 - - [24/Dec/2025 14:39:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-24 14:42:01,522 werkzeug INFO 127.0.0.1 - - [24/Dec/2025 14:42:01] "[33mGET /parking/favorites HTTP/1.1[0m" 404 -
+2025-12-25 10:43:45,024 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5003
+2025-12-25 10:43:45,026 werkzeug INFO [33mPress CTRL+C to quit[0m
+2025-12-25 10:43:45,028 werkzeug INFO  * Restarting with stat
+2025-12-25 10:43:45,898 werkzeug WARNING  * Debugger is active!
+2025-12-25 10:43:45,905 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-25 10:45:48,965 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 10:45:48] "GET /user-activity/send-feedback HTTP/1.1" 200 -
+2025-12-25 10:45:49,173 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 10:45:49] "[36mGET /static/css/main_menu.css HTTP/1.1[0m" 304 -
+2025-12-25 10:45:50,135 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 10:45:50] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-26 16:20:47,631 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 16:20:47] "GET /user-activity/send-feedback HTTP/1.1" 200 -
+2025-12-26 16:20:47,694 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 16:20:47] "[36mGET /static/css/main_menu.css HTTP/1.1[0m" 304 -
+2025-12-26 16:20:48,030 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 16:20:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-26 16:20:59,163 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 16:20:59] "GET /user-activity/send-feedback?comment=Хорошая+парковка&rating=5 HTTP/1.1" 200 -
+2025-12-26 16:20:59,211 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 16:20:59] "[36mGET /static/css/main_menu.css HTTP/1.1[0m" 304 -
+2025-12-26 21:20:15,904 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 21:20:15] "GET /user-activity/send-feedback HTTP/1.1" 200 -
+2025-12-26 21:20:16,058 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 21:20:16] "[36mGET /static/css/main_menu.css HTTP/1.1[0m" 304 -
+2025-12-26 21:20:16,505 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 21:20:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-26 21:20:27,826 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 21:20:27] "GET /user-activity/send-feedback?comment=парковка+г&rating=5 HTTP/1.1" 200 -
+2025-12-26 21:20:27,901 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 21:20:27] "[36mGET /static/css/main_menu.css HTTP/1.1[0m" 304 -

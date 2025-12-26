@@ -1,78 +1,130 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://api-maps.yandex.ru/2.1/?apikey=80842b69-5d43-45e4-bd58-51f372f4f673&lang=ru_RU"></script>
-    <title>Document</title>
-</head>
-<body>
-    <div id="map" style="width: 100%; height: 500px;"></div>
+{% extends "menu_layout.html" %}
 
-    <script>
-        ymaps.ready(function () {
-            var map = new ymaps.Map("map", {
-                center: [55.751574, 37.573856],
-                zoom: 12
-            });
+{% block scripts %}
+<script src="https://api-maps.yandex.ru/2.1/?apikey=80842b69-5d43-45e4-bd58-51f372f4f673&lang=ru_RU"></script>
+{% endblock %}
 
-            // Загружаем парковки и добавляем метки
-            fetch('/parking/parkings')
-                .then(response => response.json())
-                .then(parkings => {
-                    parkings.forEach(parking => {
-                        var placemark = new ymaps.Placemark(
-                            [parking.lat, parking.lon],
-                            {
-                                balloonContent: `
-                                    <div>
-                                        <h3>${parking.address}</h3>
-                                        <p>Цена: ${parking.price_per_hour}₽/час</p>
-                                        <button onclick="addToFavorites(${parking.id})">В избранное</button>
-                                    </div>
-                                `
-                            },
-                            {
-                                preset: 'islands#blueCircleDotIcon'
-                            }
-                        );
-                        map.geoObjects.add(placemark);
-                    });
-                });
+{% block title %}Все парковки{% endblock %}
+
+{% block content %}
+<div id="map" style="width: 100%; height: 100vh;"></div>  <!-- Сделал карту побольше для удобства -->
+{% endblock %}
+
+{% block extra_js %}
+<script>
+    ymaps.ready(function () {
+        var map = new ymaps.Map("map", {
+            center: [46.344315, 48.02315],
+            zoom: 12,
+            controls: ['zoomControl', 'fullscreenControl', 'searchControl']
+        }, {
+            searchControlFloat: 'right'  // Перемещает вправо
         });
 
-        function addToFavorites(parkingId) {
-            // Проверяем наличие JWT токена в localStorage
-            const token = localStorage.getItem('access_token');
-            if (!token) {
-                alert('Нужно войти в систему');
-                window.location.href = '/login';  // Редирект на логин
-                return;
-            }
-
-            fetch('/api/parking/favorites', {
+        // Функция добавления в избранное (с фиксами)
+        window.addToFavorites = function (parkingId) {
+            fetch('/parking/addToFavorites', {  // ← Добавь /parking/
                 method: 'POST',
                 headers: {
-                    'Content-Type': 'application/json',
-                    'Authorization': `Bearer ${token}`
+                    'Content-Type': 'application/json'
                 },
+                credentials: 'include',  // ← Добавь для куки (на всякий)
                 body: JSON.stringify({
                     parking_spot_id: parkingId
                 })
             })
-            .then(response => response.json())
+            .then(response => {
+                if (!response.ok) {  // ← Лови ошибки вроде 404/401 заранее
+                    if (response.status === 404) {
+                        throw new Error('Роут не найден — проверь URL');
+                    }
+                    if (response.status === 401) {
+                        alert('Нужно войти в систему');
+                        window.location.href = 'http://localhost:5001/auth/login';
+                        return;  // Не парсим JSON
+                    }
+                    throw new Error(`Ошибка: ${response.status} ${response.statusText}`);
+                }
+                return response.json();
+            })
             .then(data => {
-                if (data.msg === 'Добавлено в избранное') {
-                    alert('Добавлено в избранное!');
-                } else {
-                    alert(data.msg);
+                if (data) {
+                    alert(data.msg || 'Добавлено в избранное!');
                 }
             })
             .catch(error => {
                 console.error('Error:', error);
-                alert('Ошибка добавления');
+                alert('Ошибка добавления: ' + error.message);
             });
-        }
-            </script>
-</body>
-</html>
+        };
+
+        // Переход на детальную страницу парковки (без изменений)
+        window.goToParkingDetail = function(parkingId) {
+            window.location.href = `/parking/spaces/${parkingId}`;
+        };
+
+        fetch('/parking/parkings')
+            .then(response => response.json())
+            .then(parkings => {
+                parkings.forEach(parking => {
+                    // Кастомный HTML-контент балуна (без изменений)
+                    const balloonContent = `
+                        <div style="padding: 16px; font-family: Arial, sans-serif; min-width: 350px; max-width: 400px;">
+                            <h3 style="margin: 0 0 12px 0; font-size: 18px;">${parking.address || 'Парковка #' + parking.id}</h3>
+                            
+                            ${parking.price_per_hour !== undefined ? 
+                                `<p style="margin: 8px 0; color: #333;"><strong>Цена:</strong> ${parking.price_per_hour} ₽/час</p>` : ''
+                            }
+                            
+                            ${parking.total_spots !== undefined ? 
+                                `<p style="margin: 8px 0; color: #333;"><strong>Всего мест:</strong> ${parking.total_spots}</p>` : ''
+                            }
+                            
+                            ${parking.free_spots !== undefined ? 
+                                `<p style="margin: 8px 0; color: ${parking.free_spots > 0 ? 'green' : 'red'}; font-weight: bold;">
+                                    <strong>Свободно:</strong> ${parking.free_spots}
+                                </p>` : ''
+                            }
+                            
+                            ${parking.description ? 
+                                `<p style="margin: 12px 0; font-size: 14px; color: #555;">${parking.description}</p>` : ''
+                            }
+                            
+                            <div style="margin-top: 16px; display: flex; gap: 10px; flex-wrap: wrap;">
+                                <button onclick="addToFavorites(${parking.id})" 
+                                        style="padding: 10px 14px; background: #007bff; color: white; border: none; border-radius: 6px; cursor: pointer; flex: 1;">
+                                    В избранное
+                                </button>
+                                <button onclick="goToParkingDetail(${parking.id})" 
+                                        style="padding: 10px 14px; background: #28a745; color: white; border: none; border-radius: 6px; cursor: pointer; flex: 1;">
+                                    Подробнее →
+                                </button>
+                            </div>
+                        </div>
+                    `;
+
+                    var placemark = new ymaps.Placemark(
+                        [parking.lat, parking.lon],
+                        {
+                            balloonContent: balloonContent
+                        },
+                        {
+                            preset: 'islands#blueCircleDotIcon'
+                        }
+                    );
+
+                    // Увеличиваем размер балуна (без изменений)
+                    placemark.options.set({
+                        balloonMinWidth: 500,
+                        balloonMaxWidth: 550,
+                        balloonMinHeight: 400,
+                        balloonMaxHeight: 500
+                    });
+
+                    map.geoObjects.add(placemark);
+                });
+            })
+            .catch(err => console.error('Ошибка загрузки парковок:', err));
+    });
+</script>
+{% endblock %}

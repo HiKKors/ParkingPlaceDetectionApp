@@ -1,0 +1,1210 @@
+2025-11-20 16:44:18,598 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-20 16:44:18,598 werkzeug INFO [33mPress CTRL+C to quit[0m
+2025-11-20 16:44:18,600 werkzeug INFO  * Restarting with stat
+2025-11-20 16:44:19,419 werkzeug WARNING  * Debugger is active!
+2025-11-20 16:44:19,426 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-11-20 16:44:29,521 werkzeug INFO 127.0.0.1 - - [20/Nov/2025 16:44:29] "GET /auth/register HTTP/1.1" 200 -
+2025-11-20 16:44:33,591 parking_auth_logger INFO Успешная регистрация пользователя с username: login2
+2025-11-20 16:44:33,592 werkzeug INFO 127.0.0.1 - - [20/Nov/2025 16:44:33] "[35m[1mPOST /auth/register HTTP/1.1[0m" 201 -
+2025-11-20 16:44:56,643 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\logger.py', reloading
+2025-11-20 16:44:56,784 werkzeug INFO  * Restarting with stat
+2025-11-20 16:45:29,824 werkzeug INFO  * Restarting with stat
+2025-11-22 23:29:10,743 kafka.conn INFO <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv6 ('::1', 9092, 0, 0)]>: connecting to localhost:9092 [('::1', 9092, 0, 0) IPv6]
+2025-11-22 23:30:11,309 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-22 23:30:11,309 werkzeug INFO [33mPress CTRL+C to quit[0m
+2025-11-22 23:30:11,311 werkzeug INFO  * Restarting with stat
+2025-11-22 23:30:12,054 werkzeug WARNING  * Debugger is active!
+2025-11-22 23:30:12,062 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-11-23 23:50:33,953 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-23 23:50:33,953 werkzeug INFO [33mPress CTRL+C to quit[0m
+2025-11-23 23:50:33,955 werkzeug INFO  * Restarting with stat
+2025-11-23 23:50:34,931 werkzeug WARNING  * Debugger is active!
+2025-11-23 23:50:34,937 werkzeug INFO  * Debugger PIN: 120-564-144
+2025-11-23 23:50:50,325 werkzeug INFO 127.0.0.1 - - [23/Nov/2025 23:50:50] "GET /auth/register HTTP/1.1" 200 -
+2025-12-19 10:07:14,589 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-12-19 10:07:14,589 werkzeug INFO [33mPress CTRL+C to quit[0m
+2025-12-19 10:07:14,592 werkzeug INFO  * Restarting with stat
+2025-12-19 10:07:15,366 werkzeug WARNING  * Debugger is active!
+2025-12-19 10:07:15,375 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-19 10:07:29,724 werkzeug INFO 127.0.0.1 - - [19/Dec/2025 10:07:29] "[33mGET /parking/spaces HTTP/1.1[0m" 404 -
+2025-12-19 10:07:31,017 werkzeug INFO 127.0.0.1 - - [19/Dec/2025 10:07:31] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-19 10:10:00,091 werkzeug INFO 127.0.0.1 - - [19/Dec/2025 10:10:00] "GET /auth/login HTTP/1.1" 200 -
+2025-12-19 10:10:02,768 werkzeug INFO 127.0.0.1 - - [19/Dec/2025 10:10:02] "GET /auth/register HTTP/1.1" 200 -
+2025-12-19 10:10:16,205 werkzeug INFO 127.0.0.1 - - [19/Dec/2025 10:10:16] "[35m[1mPOST /auth/register HTTP/1.1[0m" 500 -
+2025-12-19 10:10:16,372 werkzeug INFO 127.0.0.1 - - [19/Dec/2025 10:10:16] "GET /auth/register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-12-19 10:10:16,595 werkzeug INFO 127.0.0.1 - - [19/Dec/2025 10:10:16] "GET /auth/register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-12-19 10:10:16,960 werkzeug INFO 127.0.0.1 - - [19/Dec/2025 10:10:16] "GET /auth/register?__debugger__=yes&cmd=resource&f=console.png&s=dJBoWR2sEYZC924KAHCM HTTP/1.1" 200 -
+2025-12-19 10:10:17,227 werkzeug INFO 127.0.0.1 - - [19/Dec/2025 10:10:17] "GET /auth/register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-12-19 10:16:09,357 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-12-19 10:16:09,357 werkzeug INFO [33mPress CTRL+C to quit[0m
+2025-12-19 10:16:09,359 werkzeug INFO  * Restarting with stat
+2025-12-19 10:16:10,394 werkzeug WARNING  * Debugger is active!
+2025-12-19 10:16:10,403 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-19 10:32:24,139 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-12-19 10:32:24,139 werkzeug INFO [33mPress CTRL+C to quit[0m
+2025-12-19 10:32:24,140 werkzeug INFO  * Restarting with stat
+2025-12-19 10:32:25,072 werkzeug WARNING  * Debugger is active!
+2025-12-19 10:32:25,081 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-19 10:34:03,012 werkzeug INFO 127.0.0.1 - - [19/Dec/2025 10:34:03] "[33mGET /parking/spaces HTTP/1.1[0m" 404 -
+2025-12-19 10:34:03,380 werkzeug INFO 127.0.0.1 - - [19/Dec/2025 10:34:03] "[33mGET /parking/spaces HTTP/1.1[0m" 404 -
+2025-12-19 10:34:52,277 werkzeug INFO 127.0.0.1 - - [19/Dec/2025 10:34:52] "[33mGET /parking/spaces HTTP/1.1[0m" 404 -
+2025-12-19 10:35:07,966 werkzeug INFO 127.0.0.1 - - [19/Dec/2025 10:35:07] "[33mGET /parking/spaces HTTP/1.1[0m" 404 -
+2025-12-19 10:35:17,901 werkzeug INFO 127.0.0.1 - - [19/Dec/2025 10:35:17] "GET /auth/login HTTP/1.1" 200 -
+2025-12-19 10:35:26,716 werkzeug INFO 127.0.0.1 - - [19/Dec/2025 10:35:26] "[33mGET /parking/spaces HTTP/1.1[0m" 404 -
+2025-12-19 10:36:05,689 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-12-19 10:36:05,689 werkzeug INFO [33mPress CTRL+C to quit[0m
+2025-12-19 10:36:05,691 werkzeug INFO  * Restarting with stat
+2025-12-19 10:36:06,538 werkzeug WARNING  * Debugger is active!
+2025-12-19 10:36:06,546 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-19 10:56:42,622 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-12-19 10:56:42,622 werkzeug INFO [33mPress CTRL+C to quit[0m
+2025-12-19 10:56:42,624 werkzeug INFO  * Restarting with stat
+2025-12-19 10:56:43,598 werkzeug WARNING  * Debugger is active!
+2025-12-19 10:56:43,606 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-19 11:46:07,142 werkzeug INFO 127.0.0.1 - - [19/Dec/2025 11:46:07] "GET /auth/login HTTP/1.1" 200 -
+2025-12-19 11:46:07,372 werkzeug INFO 127.0.0.1 - - [19/Dec/2025 11:46:07] "[33mGET /static/login.css HTTP/1.1[0m" 404 -
+2025-12-19 11:46:09,401 werkzeug INFO 127.0.0.1 - - [19/Dec/2025 11:46:09] "GET /auth/login HTTP/1.1" 200 -
+2025-12-19 11:46:09,746 werkzeug INFO 127.0.0.1 - - [19/Dec/2025 11:46:09] "[33mGET /static/login.css HTTP/1.1[0m" 404 -
+2025-12-19 11:46:10,010 werkzeug INFO 127.0.0.1 - - [19/Dec/2025 11:46:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-19 11:46:26,628 werkzeug INFO 127.0.0.1 - - [19/Dec/2025 11:46:26] "GET /auth/login HTTP/1.1" 200 -
+2025-12-19 11:46:26,942 werkzeug INFO 127.0.0.1 - - [19/Dec/2025 11:46:26] "[33mGET /static/login.css HTTP/1.1[0m" 404 -
+2025-12-19 11:46:27,272 werkzeug INFO 127.0.0.1 - - [19/Dec/2025 11:46:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-19 11:46:45,451 werkzeug INFO 127.0.0.1 - - [19/Dec/2025 11:46:45] "GET /auth/login HTTP/1.1" 200 -
+2025-12-19 11:46:45,861 werkzeug INFO 127.0.0.1 - - [19/Dec/2025 11:46:45] "GET /static/css/login.css HTTP/1.1" 200 -
+2025-12-19 11:46:46,185 werkzeug INFO 127.0.0.1 - - [19/Dec/2025 11:46:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-19 11:47:48,732 werkzeug INFO 127.0.0.1 - - [19/Dec/2025 11:47:48] "GET /auth/login HTTP/1.1" 200 -
+2025-12-19 11:47:48,777 werkzeug INFO 127.0.0.1 - - [19/Dec/2025 11:47:48] "GET /static/css/login.css HTTP/1.1" 200 -
+2025-12-19 11:47:49,047 werkzeug INFO 127.0.0.1 - - [19/Dec/2025 11:47:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-19 11:48:35,004 werkzeug INFO 127.0.0.1 - - [19/Dec/2025 11:48:35] "GET /auth/login HTTP/1.1" 200 -
+2025-12-19 11:48:35,045 werkzeug INFO 127.0.0.1 - - [19/Dec/2025 11:48:35] "GET /static/css/login.css HTTP/1.1" 200 -
+2025-12-19 11:48:35,367 werkzeug INFO 127.0.0.1 - - [19/Dec/2025 11:48:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-19 11:49:17,058 werkzeug INFO 127.0.0.1 - - [19/Dec/2025 11:49:17] "GET /auth/login HTTP/1.1" 200 -
+2025-12-19 11:49:17,106 werkzeug INFO 127.0.0.1 - - [19/Dec/2025 11:49:17] "GET /static/css/login.css HTTP/1.1" 200 -
+2025-12-19 11:49:17,383 werkzeug INFO 127.0.0.1 - - [19/Dec/2025 11:49:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-19 12:02:19,137 werkzeug INFO 127.0.0.1 - - [19/Dec/2025 12:02:19] "GET /auth/register HTTP/1.1" 200 -
+2025-12-19 12:02:19,199 werkzeug INFO 127.0.0.1 - - [19/Dec/2025 12:02:19] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-12-19 12:02:27,124 werkzeug INFO 127.0.0.1 - - [19/Dec/2025 12:02:27] "GET /auth/register HTTP/1.1" 200 -
+2025-12-19 12:02:27,430 werkzeug INFO 127.0.0.1 - - [19/Dec/2025 12:02:27] "GET /static/css/login.css HTTP/1.1" 200 -
+2025-12-19 12:02:27,775 werkzeug INFO 127.0.0.1 - - [19/Dec/2025 12:02:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-19 12:03:09,227 werkzeug INFO 127.0.0.1 - - [19/Dec/2025 12:03:09] "GET /auth/register HTTP/1.1" 200 -
+2025-12-19 12:03:09,559 werkzeug INFO 127.0.0.1 - - [19/Dec/2025 12:03:09] "GET /static/css/login.css HTTP/1.1" 200 -
+2025-12-19 12:03:09,935 werkzeug INFO 127.0.0.1 - - [19/Dec/2025 12:03:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-19 12:03:34,792 werkzeug INFO 127.0.0.1 - - [19/Dec/2025 12:03:34] "GET /auth/register HTTP/1.1" 200 -
+2025-12-19 12:03:35,077 werkzeug INFO 127.0.0.1 - - [19/Dec/2025 12:03:35] "GET /static/css/login.css HTTP/1.1" 200 -
+2025-12-19 12:03:35,450 werkzeug INFO 127.0.0.1 - - [19/Dec/2025 12:03:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-19 12:03:42,956 werkzeug INFO 127.0.0.1 - - [19/Dec/2025 12:03:42] "GET /auth/register HTTP/1.1" 200 -
+2025-12-19 12:03:43,257 werkzeug INFO 127.0.0.1 - - [19/Dec/2025 12:03:43] "GET /static/css/login.css HTTP/1.1" 200 -
+2025-12-19 12:03:43,631 werkzeug INFO 127.0.0.1 - - [19/Dec/2025 12:03:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-19 12:04:06,841 werkzeug INFO 127.0.0.1 - - [19/Dec/2025 12:04:06] "GET /auth/login HTTP/1.1" 200 -
+2025-12-19 12:04:07,182 werkzeug INFO 127.0.0.1 - - [19/Dec/2025 12:04:07] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-12-19 12:11:58,477 werkzeug INFO 127.0.0.1 - - [19/Dec/2025 12:11:58] "GET /auth/login HTTP/1.1" 200 -
+2025-12-19 12:11:58,523 werkzeug INFO 127.0.0.1 - - [19/Dec/2025 12:11:58] "GET /static/css/login.css HTTP/1.1" 200 -
+2025-12-19 12:11:58,847 werkzeug INFO 127.0.0.1 - - [19/Dec/2025 12:11:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-19 12:12:04,647 werkzeug INFO 127.0.0.1 - - [19/Dec/2025 12:12:04] "GET /auth/login HTTP/1.1" 200 -
+2025-12-19 12:12:04,684 werkzeug INFO 127.0.0.1 - - [19/Dec/2025 12:12:04] "GET /static/css/login.css HTTP/1.1" 200 -
+2025-12-19 12:12:04,953 werkzeug INFO 127.0.0.1 - - [19/Dec/2025 12:12:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-19 12:12:13,265 werkzeug INFO 127.0.0.1 - - [19/Dec/2025 12:12:13] "GET /auth/register HTTP/1.1" 200 -
+2025-12-19 12:12:13,373 werkzeug INFO 127.0.0.1 - - [19/Dec/2025 12:12:13] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-12-21 16:19:13,458 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-12-21 16:19:13,459 werkzeug INFO [33mPress CTRL+C to quit[0m
+2025-12-21 16:19:13,460 werkzeug INFO  * Restarting with stat
+2025-12-21 16:19:14,410 werkzeug WARNING  * Debugger is active!
+2025-12-21 16:19:14,417 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-21 16:19:38,949 werkzeug INFO 127.0.0.1 - - [21/Dec/2025 16:19:38] "GET /auth/login HTTP/1.1" 200 -
+2025-12-21 16:19:39,081 werkzeug INFO 127.0.0.1 - - [21/Dec/2025 16:19:39] "GET /static/css/login.css HTTP/1.1" 200 -
+2025-12-21 16:19:41,395 werkzeug INFO 127.0.0.1 - - [21/Dec/2025 16:19:41] "GET /auth/register HTTP/1.1" 200 -
+2025-12-21 16:19:41,690 werkzeug INFO 127.0.0.1 - - [21/Dec/2025 16:19:41] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-12-21 16:19:48,297 werkzeug INFO 127.0.0.1 - - [21/Dec/2025 16:19:48] "[35m[1mPOST /auth/register HTTP/1.1[0m" 500 -
+2025-12-21 16:19:48,368 werkzeug INFO 127.0.0.1 - - [21/Dec/2025 16:19:48] "GET /auth/register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-12-21 16:19:48,530 werkzeug INFO 127.0.0.1 - - [21/Dec/2025 16:19:48] "GET /auth/register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-12-21 16:19:48,913 werkzeug INFO 127.0.0.1 - - [21/Dec/2025 16:19:48] "GET /auth/register?__debugger__=yes&cmd=resource&f=console.png&s=RPsr2MuKy7WvYN1cvAIh HTTP/1.1" 200 -
+2025-12-21 16:19:49,172 werkzeug INFO 127.0.0.1 - - [21/Dec/2025 16:19:49] "GET /auth/register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-12-21 16:20:05,559 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-21 16:20:05,721 werkzeug INFO  * Restarting with stat
+2025-12-21 16:20:06,771 werkzeug WARNING  * Debugger is active!
+2025-12-21 16:20:06,779 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-21 16:20:08,915 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-21 16:20:09,054 werkzeug INFO  * Restarting with stat
+2025-12-21 16:20:10,101 werkzeug WARNING  * Debugger is active!
+2025-12-21 16:20:10,110 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-21 16:20:12,234 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-21 16:20:12,423 werkzeug INFO  * Restarting with stat
+2025-12-21 16:20:13,732 werkzeug WARNING  * Debugger is active!
+2025-12-21 16:20:13,740 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-21 16:20:15,141 werkzeug INFO 127.0.0.1 - - [21/Dec/2025 16:20:15] "[35m[1mPOST /auth/register HTTP/1.1[0m" 500 -
+2025-12-21 16:20:15,239 werkzeug INFO 127.0.0.1 - - [21/Dec/2025 16:20:15] "[36mGET /auth/register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-12-21 16:20:15,480 werkzeug INFO 127.0.0.1 - - [21/Dec/2025 16:20:15] "[36mGET /auth/register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-12-21 16:20:15,809 werkzeug INFO 127.0.0.1 - - [21/Dec/2025 16:20:15] "GET /auth/register?__debugger__=yes&cmd=resource&f=console.png&s=p2w9mmUamccPqvdOLqYd HTTP/1.1" 200 -
+2025-12-21 16:20:16,063 werkzeug INFO 127.0.0.1 - - [21/Dec/2025 16:20:16] "[36mGET /auth/register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-12-21 16:20:24,123 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-21 16:20:24,262 werkzeug INFO  * Restarting with stat
+2025-12-21 16:20:25,349 werkzeug WARNING  * Debugger is active!
+2025-12-21 16:20:25,358 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-21 16:20:33,870 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-21 16:20:34,061 werkzeug INFO  * Restarting with stat
+2025-12-21 16:20:35,926 werkzeug WARNING  * Debugger is active!
+2025-12-21 16:20:35,937 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-21 16:20:45,398 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-21 16:20:45,551 werkzeug INFO  * Restarting with stat
+2025-12-21 16:20:46,608 werkzeug WARNING  * Debugger is active!
+2025-12-21 16:20:46,618 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-21 16:20:49,860 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-21 16:20:50,009 werkzeug INFO  * Restarting with stat
+2025-12-21 16:20:51,053 werkzeug WARNING  * Debugger is active!
+2025-12-21 16:20:51,060 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-21 16:20:53,177 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-21 16:20:53,330 werkzeug INFO  * Restarting with stat
+2025-12-21 16:20:54,619 werkzeug WARNING  * Debugger is active!
+2025-12-21 16:20:54,627 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-21 16:20:55,726 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-21 16:20:55,866 werkzeug INFO  * Restarting with stat
+2025-12-21 16:20:56,960 werkzeug WARNING  * Debugger is active!
+2025-12-21 16:20:56,968 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-21 16:21:01,168 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-21 16:21:01,298 werkzeug INFO  * Restarting with stat
+2025-12-21 16:21:02,257 werkzeug WARNING  * Debugger is active!
+2025-12-21 16:21:02,265 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-21 16:21:04,181 werkzeug INFO 127.0.0.1 - - [21/Dec/2025 16:21:04] "[35m[1mPOST /auth/register HTTP/1.1[0m" 500 -
+2025-12-21 16:21:04,315 werkzeug INFO 127.0.0.1 - - [21/Dec/2025 16:21:04] "[36mGET /auth/register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-12-21 16:21:04,331 werkzeug INFO 127.0.0.1 - - [21/Dec/2025 16:21:04] "[36mGET /auth/register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-12-21 16:21:04,674 werkzeug INFO 127.0.0.1 - - [21/Dec/2025 16:21:04] "GET /auth/register?__debugger__=yes&cmd=resource&f=console.png&s=DNeGmlqpuGZNwdbnXCKV HTTP/1.1" 200 -
+2025-12-21 16:21:04,941 werkzeug INFO 127.0.0.1 - - [21/Dec/2025 16:21:04] "[36mGET /auth/register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-12-21 16:23:42,945 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-21 16:23:43,139 werkzeug INFO  * Restarting with stat
+2025-12-21 16:23:44,648 werkzeug WARNING  * Debugger is active!
+2025-12-21 16:23:44,656 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-21 16:24:04,652 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-21 16:24:04,852 werkzeug INFO  * Restarting with stat
+2025-12-21 16:24:06,193 werkzeug WARNING  * Debugger is active!
+2025-12-21 16:24:06,204 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-21 16:24:07,026 parking_auth_logger INFO Успешная регистрация пользователя с email: nk041496@gmail.com
+2025-12-21 16:24:07,027 werkzeug INFO 127.0.0.1 - - [21/Dec/2025 16:24:07] "[35m[1mPOST /auth/register HTTP/1.1[0m" 201 -
+2025-12-21 16:24:19,888 werkzeug INFO 127.0.0.1 - - [21/Dec/2025 16:24:19] "GET /auth/login HTTP/1.1" 200 -
+2025-12-21 16:24:19,992 werkzeug INFO 127.0.0.1 - - [21/Dec/2025 16:24:19] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-12-21 16:24:43,878 werkzeug INFO 127.0.0.1 - - [21/Dec/2025 16:24:43] "GET /auth/login HTTP/1.1" 200 -
+2025-12-21 16:24:43,910 werkzeug INFO 127.0.0.1 - - [21/Dec/2025 16:24:43] "GET /static/css/login.css HTTP/1.1" 200 -
+2025-12-21 16:24:44,207 werkzeug INFO 127.0.0.1 - - [21/Dec/2025 16:24:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-21 16:25:16,005 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-21 16:25:16,202 werkzeug INFO  * Restarting with stat
+2025-12-21 16:25:17,345 werkzeug WARNING  * Debugger is active!
+2025-12-21 16:25:17,354 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-21 16:25:18,456 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-21 16:25:18,615 werkzeug INFO  * Restarting with stat
+2025-12-21 16:25:19,584 werkzeug WARNING  * Debugger is active!
+2025-12-21 16:25:19,592 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-21 16:25:24,861 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-21 16:25:25,005 werkzeug INFO  * Restarting with stat
+2025-12-21 16:25:26,140 werkzeug WARNING  * Debugger is active!
+2025-12-21 16:25:26,148 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-21 16:25:27,279 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-21 16:25:27,479 werkzeug INFO  * Restarting with stat
+2025-12-21 16:25:28,726 werkzeug WARNING  * Debugger is active!
+2025-12-21 16:25:28,734 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-21 16:25:30,780 werkzeug INFO 127.0.0.1 - - [21/Dec/2025 16:25:30] "[35m[1mPOST /auth/login HTTP/1.1[0m" 500 -
+2025-12-21 16:25:30,891 werkzeug INFO 127.0.0.1 - - [21/Dec/2025 16:25:30] "GET /auth/login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-12-21 16:25:31,034 werkzeug INFO 127.0.0.1 - - [21/Dec/2025 16:25:31] "GET /auth/login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-12-21 16:25:31,359 werkzeug INFO 127.0.0.1 - - [21/Dec/2025 16:25:31] "GET /auth/login?__debugger__=yes&cmd=resource&f=console.png&s=AHn8ds6KdNZ7YohirPII HTTP/1.1" 200 -
+2025-12-21 16:25:31,624 werkzeug INFO 127.0.0.1 - - [21/Dec/2025 16:25:31] "GET /auth/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-12-21 16:25:59,293 werkzeug INFO 127.0.0.1 - - [21/Dec/2025 16:25:59] "GET /auth/login HTTP/1.1" 200 -
+2025-12-21 16:25:59,333 werkzeug INFO 127.0.0.1 - - [21/Dec/2025 16:25:59] "GET /static/css/login.css HTTP/1.1" 200 -
+2025-12-21 16:25:59,968 werkzeug INFO 127.0.0.1 - - [21/Dec/2025 16:25:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-21 16:26:12,708 parking_auth_logger INFO Успешный вход пользователя с email: nk041496@gmail.com
+2025-12-21 16:26:12,709 werkzeug INFO 127.0.0.1 - - [21/Dec/2025 16:26:12] "POST /auth/login HTTP/1.1" 200 -
+2025-12-21 16:48:35,121 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\config.py', reloading
+2025-12-21 16:48:35,270 werkzeug INFO  * Restarting with stat
+2025-12-21 18:00:22,819 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-12-21 18:00:22,820 werkzeug INFO [33mPress CTRL+C to quit[0m
+2025-12-21 18:00:22,822 werkzeug INFO  * Restarting with stat
+2025-12-21 18:00:23,824 werkzeug WARNING  * Debugger is active!
+2025-12-21 18:00:23,831 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-21 18:00:43,566 werkzeug INFO 127.0.0.1 - - [21/Dec/2025 18:00:43] "GET /auth/register HTTP/1.1" 200 -
+2025-12-21 18:00:43,749 werkzeug INFO 127.0.0.1 - - [21/Dec/2025 18:00:43] "GET /static/css/login.css HTTP/1.1" 200 -
+2025-12-21 18:00:44,737 werkzeug INFO 127.0.0.1 - - [21/Dec/2025 18:00:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-21 18:13:58,849 werkzeug INFO 127.0.0.1 - - [21/Dec/2025 18:13:58] "GET /auth/login HTTP/1.1" 200 -
+2025-12-21 18:13:58,943 werkzeug INFO 127.0.0.1 - - [21/Dec/2025 18:13:58] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-12-21 18:14:03,937 parking_auth_logger INFO Успешный вход пользователя с email: nk041496@gmail.com
+2025-12-21 18:14:03,947 werkzeug INFO 127.0.0.1 - - [21/Dec/2025 18:14:03] "[35m[1mPOST /auth/login HTTP/1.1[0m" 500 -
+2025-12-21 18:14:04,096 werkzeug INFO 127.0.0.1 - - [21/Dec/2025 18:14:04] "GET /auth/login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-12-21 18:14:04,300 werkzeug INFO 127.0.0.1 - - [21/Dec/2025 18:14:04] "GET /auth/login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-12-21 18:14:04,645 werkzeug INFO 127.0.0.1 - - [21/Dec/2025 18:14:04] "GET /auth/login?__debugger__=yes&cmd=resource&f=console.png&s=ggTjSUkmpCilB3cvJKF6 HTTP/1.1" 200 -
+2025-12-21 18:14:04,910 werkzeug INFO 127.0.0.1 - - [21/Dec/2025 18:14:04] "GET /auth/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-12-21 18:14:39,442 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\jwt_routes.py', reloading
+2025-12-21 18:14:39,600 werkzeug INFO  * Restarting with stat
+2025-12-21 18:14:40,978 werkzeug WARNING  * Debugger is active!
+2025-12-21 18:14:40,987 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-21 18:14:42,714 parking_auth_logger INFO Успешный вход пользователя с email: nk041496@gmail.com
+2025-12-21 18:14:42,723 werkzeug INFO 127.0.0.1 - - [21/Dec/2025 18:14:42] "[35m[1mPOST /auth/login HTTP/1.1[0m" 500 -
+2025-12-21 18:14:42,835 werkzeug INFO 127.0.0.1 - - [21/Dec/2025 18:14:42] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-12-21 18:14:42,879 werkzeug INFO 127.0.0.1 - - [21/Dec/2025 18:14:42] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-12-21 18:14:43,206 werkzeug INFO 127.0.0.1 - - [21/Dec/2025 18:14:43] "GET /auth/login?__debugger__=yes&cmd=resource&f=console.png&s=czCX9OdgldF9NROJgEh6 HTTP/1.1" 200 -
+2025-12-21 18:14:43,473 werkzeug INFO 127.0.0.1 - - [21/Dec/2025 18:14:43] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-12-21 18:14:55,657 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\jwt_routes.py', reloading
+2025-12-21 18:14:55,949 werkzeug INFO  * Restarting with stat
+2025-12-21 18:14:57,248 werkzeug WARNING  * Debugger is active!
+2025-12-21 18:14:57,256 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-21 18:14:59,554 parking_auth_logger INFO Успешный вход пользователя с email: nk041496@gmail.com
+2025-12-21 18:14:59,563 werkzeug INFO 127.0.0.1 - - [21/Dec/2025 18:14:59] "[35m[1mPOST /auth/login HTTP/1.1[0m" 500 -
+2025-12-21 18:14:59,654 werkzeug INFO 127.0.0.1 - - [21/Dec/2025 18:14:59] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-12-21 18:14:59,657 werkzeug INFO 127.0.0.1 - - [21/Dec/2025 18:14:59] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-12-21 18:14:59,982 werkzeug INFO 127.0.0.1 - - [21/Dec/2025 18:14:59] "GET /auth/login?__debugger__=yes&cmd=resource&f=console.png&s=HlomVcJNMPZIEvgmjWcz HTTP/1.1" 200 -
+2025-12-21 18:15:00,257 werkzeug INFO 127.0.0.1 - - [21/Dec/2025 18:15:00] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-12-21 18:15:21,294 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\jwt_routes.py', reloading
+2025-12-21 18:15:21,464 werkzeug INFO  * Restarting with stat
+2025-12-21 18:15:22,512 werkzeug WARNING  * Debugger is active!
+2025-12-21 18:15:22,520 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-21 18:15:59,092 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\jwt_routes.py', reloading
+2025-12-21 18:15:59,239 werkzeug INFO  * Restarting with stat
+2025-12-21 18:16:28,257 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-12-21 18:16:28,258 werkzeug INFO [33mPress CTRL+C to quit[0m
+2025-12-21 18:16:28,260 werkzeug INFO  * Restarting with stat
+2025-12-21 18:16:29,370 werkzeug WARNING  * Debugger is active!
+2025-12-21 18:16:29,377 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-21 18:16:37,629 parking_auth_logger INFO Успешный вход пользователя с email: nk041496@gmail.com
+2025-12-21 18:16:37,640 werkzeug INFO 127.0.0.1 - - [21/Dec/2025 18:16:37] "[35m[1mPOST /auth/login HTTP/1.1[0m" 500 -
+2025-12-21 18:16:37,732 werkzeug INFO 127.0.0.1 - - [21/Dec/2025 18:16:37] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-12-21 18:16:37,983 werkzeug INFO 127.0.0.1 - - [21/Dec/2025 18:16:37] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-12-21 18:16:38,331 werkzeug INFO 127.0.0.1 - - [21/Dec/2025 18:16:38] "GET /auth/login?__debugger__=yes&cmd=resource&f=console.png&s=bjotq0VL4Z0dzR0NlCwi HTTP/1.1" 200 -
+2025-12-21 18:16:38,593 werkzeug INFO 127.0.0.1 - - [21/Dec/2025 18:16:38] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-12-21 18:16:49,139 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\jwt_routes.py', reloading
+2025-12-21 18:16:49,281 werkzeug INFO  * Restarting with stat
+2025-12-21 18:16:50,449 werkzeug WARNING  * Debugger is active!
+2025-12-21 18:16:50,457 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-21 18:16:52,770 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\jwt_routes.py', reloading
+2025-12-21 18:16:53,073 werkzeug INFO  * Restarting with stat
+2025-12-21 18:16:54,123 werkzeug WARNING  * Debugger is active!
+2025-12-21 18:16:54,131 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-21 18:16:55,234 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\jwt_routes.py', reloading
+2025-12-21 18:16:55,396 werkzeug INFO  * Restarting with stat
+2025-12-21 18:16:56,585 werkzeug WARNING  * Debugger is active!
+2025-12-21 18:16:56,594 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-21 18:16:58,745 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\jwt_routes.py', reloading
+2025-12-21 18:16:59,093 werkzeug INFO  * Restarting with stat
+2025-12-21 18:17:00,115 werkzeug WARNING  * Debugger is active!
+2025-12-21 18:17:00,128 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-21 18:17:02,238 parking_auth_logger INFO Успешный вход пользователя с email: nk041496@gmail.com
+2025-12-21 18:17:02,239 werkzeug INFO 127.0.0.1 - - [21/Dec/2025 18:17:02] "POST /auth/login HTTP/1.1" 200 -
+2025-12-21 18:27:48,269 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-21 18:27:48,477 werkzeug INFO  * Restarting with stat
+2025-12-21 18:28:43,386 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-12-21 18:28:43,387 werkzeug INFO [33mPress CTRL+C to quit[0m
+2025-12-21 18:28:43,389 werkzeug INFO  * Restarting with stat
+2025-12-21 18:28:44,595 werkzeug WARNING  * Debugger is active!
+2025-12-21 18:28:44,603 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-21 18:29:22,181 werkzeug INFO 127.0.0.1 - - [21/Dec/2025 18:29:22] "GET /auth/login HTTP/1.1" 200 -
+2025-12-21 18:29:25,835 parking_auth_logger INFO Успешный вход пользователя с email: nk041496@gmail.com
+2025-12-21 18:29:25,836 werkzeug INFO 127.0.0.1 - - [21/Dec/2025 18:29:25] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2025-12-21 18:37:19,971 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-21 18:37:20,109 werkzeug INFO  * Restarting with stat
+2025-12-21 18:37:21,093 werkzeug WARNING  * Debugger is active!
+2025-12-21 18:37:21,101 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-21 20:56:21,827 werkzeug INFO 127.0.0.1 - - [21/Dec/2025 20:56:21] "GET /auth/login HTTP/1.1" 200 -
+2025-12-21 20:56:21,943 werkzeug INFO 127.0.0.1 - - [21/Dec/2025 20:56:21] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-12-21 20:56:27,419 parking_auth_logger INFO Успешный вход пользователя с email: nk041496@gmail.com
+2025-12-21 20:56:27,420 werkzeug INFO 127.0.0.1 - - [21/Dec/2025 20:56:27] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2025-12-22 16:20:15,705 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\__init__.py', reloading
+2025-12-22 16:20:15,988 werkzeug INFO  * Restarting with stat
+2025-12-22 16:28:22,521 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-12-22 16:28:22,521 werkzeug INFO [33mPress CTRL+C to quit[0m
+2025-12-22 16:28:22,522 werkzeug INFO  * Restarting with stat
+2025-12-22 16:28:23,490 werkzeug WARNING  * Debugger is active!
+2025-12-22 16:28:23,498 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-22 16:28:51,971 werkzeug INFO 127.0.0.1 - - [22/Dec/2025 16:28:51] "GET /auth/login HTTP/1.1" 200 -
+2025-12-22 16:28:52,151 werkzeug INFO 127.0.0.1 - - [22/Dec/2025 16:28:52] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-12-22 16:28:52,224 werkzeug INFO 127.0.0.1 - - [22/Dec/2025 16:28:52] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-12-22 16:29:01,132 parking_auth_logger INFO Успешный вход пользователя с email: nk041496@gmail.com
+2025-12-22 16:29:01,133 werkzeug INFO 127.0.0.1 - - [22/Dec/2025 16:29:01] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2025-12-22 16:38:28,476 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\config.py', reloading
+2025-12-22 16:38:28,622 werkzeug INFO  * Restarting with stat
+2025-12-22 16:38:44,097 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-12-22 16:38:44,097 werkzeug INFO [33mPress CTRL+C to quit[0m
+2025-12-22 16:38:44,099 werkzeug INFO  * Restarting with stat
+2025-12-22 16:38:45,563 werkzeug WARNING  * Debugger is active!
+2025-12-22 16:38:45,574 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-22 16:38:47,220 werkzeug INFO 127.0.0.1 - - [22/Dec/2025 16:38:47] "GET /auth/login HTTP/1.1" 200 -
+2025-12-22 16:38:47,282 werkzeug INFO 127.0.0.1 - - [22/Dec/2025 16:38:47] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-12-22 16:38:49,814 werkzeug INFO 127.0.0.1 - - [22/Dec/2025 16:38:49] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-12-22 16:38:50,127 werkzeug INFO 127.0.0.1 - - [22/Dec/2025 16:38:50] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-22 16:38:50,129 werkzeug INFO 127.0.0.1 - - [22/Dec/2025 16:38:50] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-12-22 16:38:50,192 werkzeug INFO 127.0.0.1 - - [22/Dec/2025 16:38:50] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-12-22 16:38:50,438 werkzeug INFO 127.0.0.1 - - [22/Dec/2025 16:38:50] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-22 16:38:54,715 parking_auth_logger INFO Успешный вход пользователя с email: nk041496@gmail.com
+2025-12-22 16:38:54,716 werkzeug INFO 127.0.0.1 - - [22/Dec/2025 16:38:54] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2025-12-22 16:56:01,123 werkzeug INFO 127.0.0.1 - - [22/Dec/2025 16:56:01] "GET /auth/login HTTP/1.1" 200 -
+2025-12-22 16:56:04,947 parking_auth_logger INFO Успешный вход пользователя с email: nk041496@gmail.com
+2025-12-22 16:56:04,949 werkzeug INFO 127.0.0.1 - - [22/Dec/2025 16:56:04] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2025-12-22 17:09:12,844 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\config.py', reloading
+2025-12-22 17:09:13,016 werkzeug INFO  * Restarting with stat
+2025-12-22 17:09:14,448 werkzeug WARNING  * Debugger is active!
+2025-12-22 17:09:14,456 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-22 17:09:35,508 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\config.py', reloading
+2025-12-22 17:09:35,819 werkzeug INFO  * Restarting with stat
+2025-12-22 17:09:37,043 werkzeug WARNING  * Debugger is active!
+2025-12-22 17:09:37,053 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-22 17:09:44,670 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-12-22 17:09:44,671 werkzeug INFO [33mPress CTRL+C to quit[0m
+2025-12-22 17:09:44,672 werkzeug INFO  * Restarting with stat
+2025-12-22 17:09:45,883 werkzeug WARNING  * Debugger is active!
+2025-12-22 17:09:45,892 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-22 17:09:54,301 werkzeug INFO 127.0.0.1 - - [22/Dec/2025 17:09:54] "GET /auth/login HTTP/1.1" 200 -
+2025-12-22 17:10:00,952 parking_auth_logger INFO Успешный вход пользователя с email: nk041496@gmail.com
+2025-12-22 17:10:00,954 werkzeug INFO 127.0.0.1 - - [22/Dec/2025 17:10:00] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2025-12-22 17:44:58,984 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\config.py', reloading
+2025-12-22 17:44:59,136 werkzeug INFO  * Restarting with stat
+2025-12-22 17:45:00,098 werkzeug WARNING  * Debugger is active!
+2025-12-22 17:45:00,105 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-22 17:45:02,215 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\config.py', reloading
+2025-12-22 17:45:02,350 werkzeug INFO  * Restarting with stat
+2025-12-22 17:45:03,321 werkzeug WARNING  * Debugger is active!
+2025-12-22 17:45:03,328 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-22 17:45:56,580 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\config.py', reloading
+2025-12-22 17:45:56,715 werkzeug INFO  * Restarting with stat
+2025-12-22 17:45:57,709 werkzeug WARNING  * Debugger is active!
+2025-12-22 17:45:57,717 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-22 17:55:41,148 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-12-22 17:55:41,148 werkzeug INFO [33mPress CTRL+C to quit[0m
+2025-12-22 17:55:41,150 werkzeug INFO  * Restarting with stat
+2025-12-22 17:55:42,359 werkzeug WARNING  * Debugger is active!
+2025-12-22 17:55:42,367 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-22 17:56:36,050 werkzeug INFO 127.0.0.1 - - [22/Dec/2025 17:56:36] "GET /auth/login HTTP/1.1" 200 -
+2025-12-22 17:56:36,210 werkzeug INFO 127.0.0.1 - - [22/Dec/2025 17:56:36] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-12-22 17:56:42,737 parking_auth_logger INFO Успешный вход пользователя с email: nk041496@gmail.com
+2025-12-22 17:56:42,739 werkzeug INFO 127.0.0.1 - - [22/Dec/2025 17:56:42] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2025-12-22 17:57:23,920 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\__init__.py', reloading
+2025-12-22 17:57:24,094 werkzeug INFO  * Restarting with stat
+2025-12-22 17:57:34,842 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-12-22 17:57:34,842 werkzeug INFO [33mPress CTRL+C to quit[0m
+2025-12-22 17:57:34,844 werkzeug INFO  * Restarting with stat
+2025-12-22 17:57:36,016 werkzeug WARNING  * Debugger is active!
+2025-12-22 17:57:36,023 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-22 17:57:36,736 werkzeug INFO 127.0.0.1 - - [22/Dec/2025 17:57:36] "GET /auth/login HTTP/1.1" 200 -
+2025-12-22 17:57:39,913 parking_auth_logger INFO Успешный вход пользователя с email: nk041496@gmail.com
+2025-12-22 17:57:39,914 werkzeug INFO 127.0.0.1 - - [22/Dec/2025 17:57:39] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2025-12-22 18:07:13,945 werkzeug INFO 127.0.0.1 - - [22/Dec/2025 18:07:13] "[35m[1mGET /auth/profile HTTP/1.1[0m" 500 -
+2025-12-22 18:07:14,118 werkzeug INFO 127.0.0.1 - - [22/Dec/2025 18:07:14] "GET /auth/profile?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-12-22 18:07:14,221 werkzeug INFO 127.0.0.1 - - [22/Dec/2025 18:07:14] "GET /auth/profile?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-12-22 18:07:14,304 werkzeug INFO 127.0.0.1 - - [22/Dec/2025 18:07:14] "GET /auth/profile?__debugger__=yes&cmd=resource&f=console.png&s=dZtZNKgsoQGGzRDd2AOh HTTP/1.1" 200 -
+2025-12-22 18:07:14,558 werkzeug INFO 127.0.0.1 - - [22/Dec/2025 18:07:14] "GET /auth/profile?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-12-22 18:07:36,488 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-22 18:07:36,696 werkzeug INFO  * Restarting with stat
+2025-12-22 18:07:37,738 werkzeug WARNING  * Debugger is active!
+2025-12-22 18:07:37,746 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-22 18:07:45,057 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-22 18:07:45,226 werkzeug INFO  * Restarting with stat
+2025-12-22 18:07:46,513 werkzeug WARNING  * Debugger is active!
+2025-12-22 18:07:46,521 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-22 18:07:47,672 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-22 18:07:47,817 werkzeug INFO  * Restarting with stat
+2025-12-22 18:07:49,017 werkzeug WARNING  * Debugger is active!
+2025-12-22 18:07:49,025 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-22 18:07:50,111 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-22 18:07:50,242 werkzeug INFO  * Restarting with stat
+2025-12-22 18:07:51,207 werkzeug WARNING  * Debugger is active!
+2025-12-22 18:07:51,215 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-22 18:08:01,715 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-22 18:08:01,870 werkzeug INFO  * Restarting with stat
+2025-12-22 18:08:02,974 werkzeug WARNING  * Debugger is active!
+2025-12-22 18:08:02,983 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-22 18:08:08,254 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-22 18:08:08,432 werkzeug INFO  * Restarting with stat
+2025-12-22 18:08:09,791 werkzeug WARNING  * Debugger is active!
+2025-12-22 18:08:09,799 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-22 18:08:32,046 werkzeug INFO 127.0.0.1 - - [22/Dec/2025 18:08:32] "GET /auth/profile HTTP/1.1" 200 -
+2025-12-22 18:08:32,407 werkzeug INFO 127.0.0.1 - - [22/Dec/2025 18:08:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-22 18:08:35,771 werkzeug INFO 127.0.0.1 - - [22/Dec/2025 18:08:35] "GET /auth/login HTTP/1.1" 200 -
+2025-12-22 18:08:36,193 werkzeug INFO 127.0.0.1 - - [22/Dec/2025 18:08:36] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-12-22 18:08:41,763 parking_auth_logger INFO Успешный вход пользователя с email: nk041496@gmail.com
+2025-12-22 18:08:41,764 werkzeug INFO 127.0.0.1 - - [22/Dec/2025 18:08:41] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2025-12-22 18:10:19,861 werkzeug INFO 127.0.0.1 - - [22/Dec/2025 18:10:19] "GET /auth/profile HTTP/1.1" 200 -
+2025-12-22 18:13:51,221 werkzeug INFO 127.0.0.1 - - [22/Dec/2025 18:13:51] "GET /auth/profile HTTP/1.1" 200 -
+2025-12-22 18:13:51,267 werkzeug INFO 127.0.0.1 - - [22/Dec/2025 18:13:51] "GET /static/css/main_menu.css HTTP/1.1" 200 -
+2025-12-22 18:22:18,939 werkzeug INFO 127.0.0.1 - - [22/Dec/2025 18:22:18] "GET /auth/profile HTTP/1.1" 200 -
+2025-12-22 18:22:18,971 werkzeug INFO 127.0.0.1 - - [22/Dec/2025 18:22:18] "[36mGET /static/css/main_menu.css HTTP/1.1[0m" 304 -
+2025-12-22 18:23:40,053 werkzeug INFO 127.0.0.1 - - [22/Dec/2025 18:23:40] "[35m[1mGET /auth/profile HTTP/1.1[0m" 500 -
+2025-12-22 18:23:40,087 werkzeug INFO 127.0.0.1 - - [22/Dec/2025 18:23:40] "[36mGET /auth/profile?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-12-22 18:23:40,270 werkzeug INFO 127.0.0.1 - - [22/Dec/2025 18:23:40] "[36mGET /auth/profile?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-12-22 18:23:40,597 werkzeug INFO 127.0.0.1 - - [22/Dec/2025 18:23:40] "GET /auth/profile?__debugger__=yes&cmd=resource&f=console.png&s=qvIcT4e2NyCKuwHE0Qyg HTTP/1.1" 200 -
+2025-12-22 18:23:40,869 werkzeug INFO 127.0.0.1 - - [22/Dec/2025 18:23:40] "[36mGET /auth/profile?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-12-22 18:24:05,626 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-22 18:24:05,804 werkzeug INFO  * Restarting with stat
+2025-12-22 18:24:07,006 werkzeug WARNING  * Debugger is active!
+2025-12-22 18:24:07,015 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-22 18:24:08,197 werkzeug INFO 127.0.0.1 - - [22/Dec/2025 18:24:08] "[31m[1mGET /auth/profile HTTP/1.1[0m" 401 -
+2025-12-22 18:24:15,916 werkzeug INFO 127.0.0.1 - - [22/Dec/2025 18:24:15] "[31m[1mGET /auth/profile HTTP/1.1[0m" 401 -
+2025-12-22 18:24:37,379 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-22 18:24:37,518 werkzeug INFO  * Restarting with stat
+2025-12-22 18:24:38,583 werkzeug WARNING  * Debugger is active!
+2025-12-22 18:24:38,591 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-22 18:24:38,633 werkzeug INFO 127.0.0.1 - - [22/Dec/2025 18:24:38] "[31m[1mGET /auth/profile HTTP/1.1[0m" 401 -
+2025-12-22 18:24:48,618 werkzeug INFO 127.0.0.1 - - [22/Dec/2025 18:24:48] "GET /auth/login HTTP/1.1" 200 -
+2025-12-22 18:24:48,757 werkzeug INFO 127.0.0.1 - - [22/Dec/2025 18:24:48] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-12-22 18:24:53,825 parking_auth_logger INFO Успешный вход пользователя с email: nk041496@gmail.com
+2025-12-22 18:24:53,827 werkzeug INFO 127.0.0.1 - - [22/Dec/2025 18:24:53] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2025-12-22 18:24:55,731 werkzeug INFO 127.0.0.1 - - [22/Dec/2025 18:24:55] "[35m[1mGET /auth/profile HTTP/1.1[0m" 500 -
+2025-12-22 18:24:55,779 werkzeug INFO 127.0.0.1 - - [22/Dec/2025 18:24:55] "[36mGET /auth/profile?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-12-22 18:24:56,092 werkzeug INFO 127.0.0.1 - - [22/Dec/2025 18:24:56] "[36mGET /auth/profile?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-12-22 18:24:56,358 werkzeug INFO 127.0.0.1 - - [22/Dec/2025 18:24:56] "GET /auth/profile?__debugger__=yes&cmd=resource&f=console.png&s=6X7RprNzjLf73ql3Fhv3 HTTP/1.1" 200 -
+2025-12-22 18:24:56,420 werkzeug INFO 127.0.0.1 - - [22/Dec/2025 18:24:56] "[36mGET /auth/profile?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-12-22 18:25:02,781 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-22 18:25:03,123 werkzeug INFO  * Restarting with stat
+2025-12-22 18:25:04,365 werkzeug WARNING  * Debugger is active!
+2025-12-22 18:25:04,374 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-22 18:25:05,042 werkzeug INFO 127.0.0.1 - - [22/Dec/2025 18:25:05] "[35m[1mGET /auth/profile HTTP/1.1[0m" 500 -
+2025-12-22 18:25:05,144 werkzeug INFO 127.0.0.1 - - [22/Dec/2025 18:25:05] "[36mGET /auth/profile?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-12-22 18:25:05,276 werkzeug INFO 127.0.0.1 - - [22/Dec/2025 18:25:05] "[36mGET /auth/profile?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-12-22 18:25:05,604 werkzeug INFO 127.0.0.1 - - [22/Dec/2025 18:25:05] "GET /auth/profile?__debugger__=yes&cmd=resource&f=console.png&s=0n5SDxOaqdeGCvHcjlIa HTTP/1.1" 200 -
+2025-12-22 18:25:05,869 werkzeug INFO 127.0.0.1 - - [22/Dec/2025 18:25:05] "[36mGET /auth/profile?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-12-22 18:25:54,721 werkzeug INFO 127.0.0.1 - - [22/Dec/2025 18:25:54] "GET /auth/profile HTTP/1.1" 200 -
+2025-12-22 18:25:55,019 werkzeug INFO 127.0.0.1 - - [22/Dec/2025 18:25:55] "[36mGET /static/css/main_menu.css HTTP/1.1[0m" 304 -
+2025-12-22 18:26:11,199 werkzeug INFO 127.0.0.1 - - [22/Dec/2025 18:26:11] "GET /auth/profile HTTP/1.1" 200 -
+2025-12-22 18:26:11,238 werkzeug INFO 127.0.0.1 - - [22/Dec/2025 18:26:11] "GET /static/css/main_menu.css HTTP/1.1" 200 -
+2025-12-22 18:26:36,876 werkzeug INFO 127.0.0.1 - - [22/Dec/2025 18:26:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-22 18:27:01,544 werkzeug INFO 127.0.0.1 - - [22/Dec/2025 18:27:01] "GET /auth/profile HTTP/1.1" 200 -
+2025-12-22 18:27:01,579 werkzeug INFO 127.0.0.1 - - [22/Dec/2025 18:27:01] "[36mGET /static/css/main_menu.css HTTP/1.1[0m" 304 -
+2025-12-22 19:21:22,191 werkzeug INFO 127.0.0.1 - - [22/Dec/2025 19:21:22] "[31m[1mGET /auth/profile HTTP/1.1[0m" 401 -
+2025-12-22 19:21:22,525 werkzeug INFO 127.0.0.1 - - [22/Dec/2025 19:21:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-22 19:21:24,997 werkzeug INFO 127.0.0.1 - - [22/Dec/2025 19:21:24] "GET /auth/login HTTP/1.1" 200 -
+2025-12-22 19:21:28,059 parking_auth_logger INFO Успешный вход пользователя с email: nk041496@gmail.com
+2025-12-22 19:21:28,060 werkzeug INFO 127.0.0.1 - - [22/Dec/2025 19:21:28] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2025-12-22 19:21:30,352 werkzeug INFO 127.0.0.1 - - [22/Dec/2025 19:21:30] "GET /auth/profile HTTP/1.1" 200 -
+2025-12-22 19:21:30,660 werkzeug INFO 127.0.0.1 - - [22/Dec/2025 19:21:30] "GET /static/css/main_menu.css HTTP/1.1" 200 -
+2025-12-22 19:27:18,587 werkzeug INFO 127.0.0.1 - - [22/Dec/2025 19:27:18] "GET /auth/profile HTTP/1.1" 200 -
+2025-12-22 19:27:18,642 werkzeug INFO 127.0.0.1 - - [22/Dec/2025 19:27:18] "GET /static/css/main_menu.css HTTP/1.1" 200 -
+2025-12-22 19:28:09,950 werkzeug INFO 127.0.0.1 - - [22/Dec/2025 19:28:09] "GET /auth/profile HTTP/1.1" 200 -
+2025-12-22 19:28:10,257 werkzeug INFO 127.0.0.1 - - [22/Dec/2025 19:28:10] "[36mGET /static/css/main_menu.css HTTP/1.1[0m" 304 -
+2025-12-22 19:28:31,299 werkzeug INFO 127.0.0.1 - - [22/Dec/2025 19:28:31] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-22 19:29:04,889 werkzeug INFO 127.0.0.1 - - [22/Dec/2025 19:29:04] "GET /auth/profile HTTP/1.1" 200 -
+2025-12-22 19:29:05,284 werkzeug INFO 127.0.0.1 - - [22/Dec/2025 19:29:05] "[36mGET /static/css/main_menu.css HTTP/1.1[0m" 304 -
+2025-12-23 16:35:59,177 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-12-23 16:35:59,177 werkzeug INFO [33mPress CTRL+C to quit[0m
+2025-12-23 16:35:59,180 werkzeug INFO  * Restarting with stat
+2025-12-23 16:36:00,521 werkzeug WARNING  * Debugger is active!
+2025-12-23 16:36:00,531 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-23 16:40:54,601 werkzeug INFO 127.0.0.1 - - [23/Dec/2025 16:40:54] "GET /auth/login HTTP/1.1" 200 -
+2025-12-23 16:40:54,786 werkzeug INFO 127.0.0.1 - - [23/Dec/2025 16:40:54] "GET /static/css/login.css HTTP/1.1" 200 -
+2025-12-23 16:40:55,826 werkzeug INFO 127.0.0.1 - - [23/Dec/2025 16:40:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-23 16:41:01,021 parking_auth_logger INFO Успешный вход пользователя с email: nk041496@gmail.com
+2025-12-23 16:41:01,022 werkzeug INFO 127.0.0.1 - - [23/Dec/2025 16:41:01] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2025-12-23 16:41:52,572 werkzeug INFO 127.0.0.1 - - [23/Dec/2025 16:41:52] "GET /auth/profile HTTP/1.1" 200 -
+2025-12-23 16:41:52,623 werkzeug INFO 127.0.0.1 - - [23/Dec/2025 16:41:52] "GET /static/css/main_menu.css HTTP/1.1" 200 -
+2025-12-23 19:37:42,475 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-12-23 19:37:42,475 werkzeug INFO [33mPress CTRL+C to quit[0m
+2025-12-23 19:37:42,477 werkzeug INFO  * Restarting with stat
+2025-12-23 19:37:43,506 werkzeug WARNING  * Debugger is active!
+2025-12-23 19:37:43,517 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-23 19:37:49,973 werkzeug INFO 127.0.0.1 - - [23/Dec/2025 19:37:49] "[35m[1mGET /auth/get_all_users HTTP/1.1[0m" 500 -
+2025-12-23 19:38:08,971 werkzeug INFO 127.0.0.1 - - [23/Dec/2025 19:38:08] "[35m[1mGET /auth/get_all_users HTTP/1.1[0m" 500 -
+2025-12-23 19:38:11,139 werkzeug INFO 127.0.0.1 - - [23/Dec/2025 19:38:11] "[35m[1mGET /auth/get_all_users HTTP/1.1[0m" 500 -
+2025-12-23 19:40:53,738 werkzeug INFO 127.0.0.1 - - [23/Dec/2025 19:40:53] "[35m[1mGET /auth/get_all_users HTTP/1.1[0m" 500 -
+2025-12-23 19:41:39,683 werkzeug INFO 127.0.0.1 - - [23/Dec/2025 19:41:39] "[35m[1mGET /auth/get_all_users HTTP/1.1[0m" 500 -
+2025-12-23 19:43:01,905 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-23 19:43:02,236 werkzeug INFO  * Restarting with stat
+2025-12-23 19:43:03,340 werkzeug WARNING  * Debugger is active!
+2025-12-23 19:43:03,348 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-23 19:43:06,540 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-23 19:43:06,674 werkzeug INFO  * Restarting with stat
+2025-12-23 19:43:08,254 werkzeug WARNING  * Debugger is active!
+2025-12-23 19:43:08,262 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-23 19:43:14,487 werkzeug INFO 127.0.0.1 - - [23/Dec/2025 19:43:14] "[35m[1mGET /auth/get_all_users HTTP/1.1[0m" 500 -
+2025-12-23 19:44:07,586 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-23 19:44:07,729 werkzeug INFO  * Restarting with stat
+2025-12-23 19:44:52,341 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-12-23 19:44:52,341 werkzeug INFO [33mPress CTRL+C to quit[0m
+2025-12-23 19:44:52,343 werkzeug INFO  * Restarting with stat
+2025-12-23 19:44:53,796 werkzeug WARNING  * Debugger is active!
+2025-12-23 19:44:53,804 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-23 19:45:04,345 parking_auth_logger INFO ПОЛУЧЕНИЕ ВСЕХ ПОЛЬЗОВАТЕЛЕЙ
+2025-12-23 19:45:04,356 werkzeug INFO 127.0.0.1 - - [23/Dec/2025 19:45:04] "[35m[1mGET /auth/get_all_users HTTP/1.1[0m" 500 -
+2025-12-23 19:46:09,525 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-23 19:46:09,703 werkzeug INFO  * Restarting with stat
+2025-12-23 19:46:10,731 werkzeug WARNING  * Debugger is active!
+2025-12-23 19:46:10,739 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-23 19:47:27,321 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-23 19:47:27,479 werkzeug INFO  * Restarting with stat
+2025-12-23 19:47:28,692 werkzeug WARNING  * Debugger is active!
+2025-12-23 19:47:28,700 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-23 19:49:14,708 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-23 19:49:14,896 werkzeug INFO  * Restarting with stat
+2025-12-23 19:49:16,075 werkzeug WARNING  * Debugger is active!
+2025-12-23 19:49:16,085 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-23 19:49:22,418 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-23 19:49:22,547 werkzeug INFO  * Restarting with stat
+2025-12-23 19:49:23,490 werkzeug WARNING  * Debugger is active!
+2025-12-23 19:49:23,499 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-23 19:49:24,588 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-23 19:49:24,723 werkzeug INFO  * Restarting with stat
+2025-12-23 19:49:57,032 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-12-23 19:49:57,033 werkzeug INFO [33mPress CTRL+C to quit[0m
+2025-12-23 19:49:57,034 werkzeug INFO  * Restarting with stat
+2025-12-23 19:49:58,038 werkzeug WARNING  * Debugger is active!
+2025-12-23 19:49:58,046 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-23 19:50:03,855 parking_auth_logger INFO ПОЛУЧЕНИЕ ВСЕХ ПОЛЬЗОВАТЕЛЕЙ
+2025-12-23 19:50:03,892 werkzeug INFO 127.0.0.1 - - [23/Dec/2025 19:50:03] "[35m[1mGET /auth/get_all_users HTTP/1.1[0m" 500 -
+2025-12-23 19:50:09,781 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-23 19:50:09,935 werkzeug INFO  * Restarting with stat
+2025-12-23 19:50:10,998 werkzeug WARNING  * Debugger is active!
+2025-12-23 19:50:11,005 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-23 19:50:17,909 parking_auth_logger INFO ПОЛУЧЕНИЕ ВСЕХ ПОЛЬЗОВАТЕЛЕЙ
+2025-12-23 19:50:17,940 werkzeug INFO 127.0.0.1 - - [23/Dec/2025 19:50:17] "GET /auth/get_all_users HTTP/1.1" 200 -
+2025-12-23 19:50:40,487 parking_auth_logger INFO ПОЛУЧЕНИЕ ВСЕХ ПОЛЬЗОВАТЕЛЕЙ
+2025-12-23 19:50:40,493 werkzeug INFO 127.0.0.1 - - [23/Dec/2025 19:50:40] "GET /auth/get_all_users HTTP/1.1" 200 -
+2025-12-23 20:10:03,680 parking_auth_logger INFO ПОЛУЧЕНИЕ ВСЕХ ПОЛЬЗОВАТЕЛЕЙ
+2025-12-23 20:10:03,687 werkzeug INFO 127.0.0.1 - - [23/Dec/2025 20:10:03] "GET /auth/get_all_users HTTP/1.1" 200 -
+2025-12-23 20:10:42,259 parking_auth_logger INFO ПОЛУЧЕНИЕ ВСЕХ ПОЛЬЗОВАТЕЛЕЙ
+2025-12-23 20:10:42,261 werkzeug INFO 127.0.0.1 - - [23/Dec/2025 20:10:42] "GET /auth/get_all_users HTTP/1.1" 200 -
+2025-12-23 20:13:04,386 parking_auth_logger INFO ПОЛУЧЕНИЕ ВСЕХ ПОЛЬЗОВАТЕЛЕЙ
+2025-12-23 20:13:04,393 werkzeug INFO 127.0.0.1 - - [23/Dec/2025 20:13:04] "GET /auth/get_all_users HTTP/1.1" 200 -
+2025-12-23 20:14:34,806 parking_auth_logger INFO ПОЛУЧЕНИЕ ВСЕХ ПОЛЬЗОВАТЕЛЕЙ
+2025-12-23 20:14:34,807 werkzeug INFO 127.0.0.1 - - [23/Dec/2025 20:14:34] "GET /auth/get_all_users HTTP/1.1" 200 -
+2025-12-23 20:15:02,979 parking_auth_logger INFO ПОЛУЧЕНИЕ ВСЕХ ПОЛЬЗОВАТЕЛЕЙ
+2025-12-23 20:15:02,982 werkzeug INFO 127.0.0.1 - - [23/Dec/2025 20:15:02] "GET /auth/get_all_users HTTP/1.1" 200 -
+2025-12-24 14:43:00,536 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-12-24 14:43:00,536 werkzeug INFO [33mPress CTRL+C to quit[0m
+2025-12-24 14:43:00,538 werkzeug INFO  * Restarting with stat
+2025-12-24 14:43:01,596 werkzeug WARNING  * Debugger is active!
+2025-12-24 14:43:01,603 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-24 14:43:29,596 werkzeug INFO 127.0.0.1 - - [24/Dec/2025 14:43:29] "GET /auth/login HTTP/1.1" 200 -
+2025-12-24 14:43:29,765 werkzeug INFO 127.0.0.1 - - [24/Dec/2025 14:43:29] "GET /static/css/login.css HTTP/1.1" 200 -
+2025-12-24 14:43:30,778 werkzeug INFO 127.0.0.1 - - [24/Dec/2025 14:43:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-24 14:43:52,333 parking_auth_logger INFO Успешный вход пользователя с email: nk041496@gmail.com
+2025-12-24 14:43:52,334 werkzeug INFO 127.0.0.1 - - [24/Dec/2025 14:43:52] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2025-12-24 14:44:05,502 werkzeug INFO 127.0.0.1 - - [24/Dec/2025 14:44:05] "GET /auth/profile HTTP/1.1" 200 -
+2025-12-24 14:44:05,570 werkzeug INFO 127.0.0.1 - - [24/Dec/2025 14:44:05] "GET /static/css/main_menu.css HTTP/1.1" 200 -
+2025-12-24 15:29:18,712 parking_auth_logger INFO ПОЛУЧЕНИЕ ВСЕХ ПОЛЬЗОВАТЕЛЕЙ
+2025-12-24 15:29:18,722 werkzeug INFO 127.0.0.1 - - [24/Dec/2025 15:29:18] "GET /auth/get_all_users HTTP/1.1" 200 -
+2025-12-24 15:30:57,665 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-24 15:30:58,011 werkzeug INFO  * Restarting with stat
+2025-12-24 15:31:00,007 werkzeug WARNING  * Debugger is active!
+2025-12-24 15:31:00,048 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-24 15:31:02,332 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-24 15:31:02,929 werkzeug INFO  * Restarting with stat
+2025-12-24 15:56:08,206 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-12-24 15:56:08,207 werkzeug INFO [33mPress CTRL+C to quit[0m
+2025-12-24 15:56:08,208 werkzeug INFO  * Restarting with stat
+2025-12-24 15:56:09,406 werkzeug WARNING  * Debugger is active!
+2025-12-24 15:56:09,414 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-24 15:56:13,889 parking_auth_logger INFO ПОЛУЧЕНИЕ ВСЕХ ПОЛЬЗОВАТЕЛЕЙ
+2025-12-24 15:56:13,897 werkzeug INFO 127.0.0.1 - - [24/Dec/2025 15:56:13] "GET /auth/get_all_users HTTP/1.1" 200 -
+2025-12-24 15:56:27,142 werkzeug INFO 127.0.0.1 - - [24/Dec/2025 15:56:27] "[33mPUT /auth/users/5 HTTP/1.1[0m" 404 -
+2025-12-24 16:03:21,941 parking_auth_logger INFO Обновление пользователя ID=5
+2025-12-24 16:03:21,961 werkzeug INFO 127.0.0.1 - - [24/Dec/2025 16:03:21] "[35m[1mPUT /auth/edit-users/5 HTTP/1.1[0m" 500 -
+2025-12-24 16:03:29,709 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-24 16:03:29,973 werkzeug INFO  * Restarting with stat
+2025-12-24 16:03:30,957 werkzeug WARNING  * Debugger is active!
+2025-12-24 16:03:30,965 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-24 16:03:33,117 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-24 16:03:33,240 werkzeug INFO  * Restarting with stat
+2025-12-24 16:03:34,389 werkzeug WARNING  * Debugger is active!
+2025-12-24 16:03:34,399 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-24 16:03:40,226 parking_auth_logger INFO Обновление пользователя ID=5
+2025-12-24 16:03:40,278 werkzeug INFO 127.0.0.1 - - [24/Dec/2025 16:03:40] "[35m[1mPUT /auth/edit-users/5 HTTP/1.1[0m" 500 -
+2025-12-24 16:03:49,190 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-24 16:03:49,371 werkzeug INFO  * Restarting with stat
+2025-12-24 16:03:50,609 werkzeug WARNING  * Debugger is active!
+2025-12-24 16:03:50,620 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-24 16:03:54,681 parking_auth_logger INFO Обновление пользователя ID=5
+2025-12-24 16:03:54,719 werkzeug INFO 127.0.0.1 - - [24/Dec/2025 16:03:54] "PUT /auth/edit-users/5 HTTP/1.1" 200 -
+2025-12-24 16:04:23,423 parking_auth_logger INFO ПОЛУЧЕНИЕ ВСЕХ ПОЛЬЗОВАТЕЛЕЙ
+2025-12-24 16:04:23,428 werkzeug INFO 127.0.0.1 - - [24/Dec/2025 16:04:23] "GET /auth/get_all_users HTTP/1.1" 200 -
+2025-12-24 16:07:11,987 parking_auth_logger INFO ПОЛУЧЕНИЕ ВСЕХ ПОЛЬЗОВАТЕЛЕЙ
+2025-12-24 16:07:11,993 werkzeug INFO 127.0.0.1 - - [24/Dec/2025 16:07:11] "GET /auth/get_all_users HTTP/1.1" 200 -
+2025-12-24 16:08:05,483 parking_auth_logger INFO ПОЛУЧЕНИЕ ВСЕХ ПОЛЬЗОВАТЕЛЕЙ
+2025-12-24 16:08:05,488 werkzeug INFO 127.0.0.1 - - [24/Dec/2025 16:08:05] "GET /auth/get_all_users HTTP/1.1" 200 -
+2025-12-24 16:09:32,898 parking_auth_logger INFO ПОЛУЧЕНИЕ ВСЕХ ПОЛЬЗОВАТЕЛЕЙ
+2025-12-24 16:09:32,904 werkzeug INFO 127.0.0.1 - - [24/Dec/2025 16:09:32] "GET /auth/get_all_users HTTP/1.1" 200 -
+2025-12-24 16:09:58,752 werkzeug INFO 127.0.0.1 - - [24/Dec/2025 16:09:58] "[33mGET /auth/edit-users/{user_id} HTTP/1.1[0m" 404 -
+2025-12-24 16:16:09,953 parking_auth_logger INFO ПОЛУЧЕНИЕ ВСЕХ ПОЛЬЗОВАТЕЛЕЙ
+2025-12-24 16:16:09,958 werkzeug INFO 127.0.0.1 - - [24/Dec/2025 16:16:09] "GET /auth/get_all_users HTTP/1.1" 200 -
+2025-12-24 16:16:16,100 parking_auth_logger INFO Обновление пользователя ID=5
+2025-12-24 16:16:16,104 werkzeug INFO 127.0.0.1 - - [24/Dec/2025 16:16:16] "PUT /auth/edit-users/5 HTTP/1.1" 200 -
+2025-12-24 16:27:30,197 parking_auth_logger INFO ПОЛУЧЕНИЕ ВСЕХ ПОЛЬЗОВАТЕЛЕЙ
+2025-12-24 16:27:30,202 werkzeug INFO 127.0.0.1 - - [24/Dec/2025 16:27:30] "GET /auth/get_all_users HTTP/1.1" 200 -
+2025-12-24 16:27:45,410 parking_auth_logger INFO Обновление пользователя ID=5
+2025-12-24 16:27:45,422 werkzeug INFO 127.0.0.1 - - [24/Dec/2025 16:27:45] "PUT /auth/edit-users/5 HTTP/1.1" 200 -
+2025-12-24 16:27:47,481 parking_auth_logger INFO ПОЛУЧЕНИЕ ВСЕХ ПОЛЬЗОВАТЕЛЕЙ
+2025-12-24 16:27:47,483 werkzeug INFO 127.0.0.1 - - [24/Dec/2025 16:27:47] "GET /auth/get_all_users HTTP/1.1" 200 -
+2025-12-24 16:28:00,672 werkzeug INFO 127.0.0.1 - - [24/Dec/2025 16:28:00] "[31m[1mGET /auth/profile HTTP/1.1[0m" 401 -
+2025-12-24 16:28:01,007 werkzeug INFO 127.0.0.1 - - [24/Dec/2025 16:28:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-24 17:48:54,734 werkzeug INFO 127.0.0.1 - - [24/Dec/2025 17:48:54] "[31m[1mGET /auth/profile HTTP/1.1[0m" 401 -
+2025-12-24 17:48:55,141 werkzeug INFO 127.0.0.1 - - [24/Dec/2025 17:48:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-24 17:49:03,711 werkzeug INFO 127.0.0.1 - - [24/Dec/2025 17:49:03] "GET /auth/login HTTP/1.1" 200 -
+2025-12-24 17:49:04,064 werkzeug INFO 127.0.0.1 - - [24/Dec/2025 17:49:04] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-12-24 17:49:09,778 parking_auth_logger INFO Попытка войти под не существующим аккаунтом
+2025-12-24 17:49:09,780 werkzeug INFO 127.0.0.1 - - [24/Dec/2025 17:49:09] "[31m[1mPOST /auth/login HTTP/1.1[0m" 401 -
+2025-12-24 17:49:42,950 werkzeug INFO 127.0.0.1 - - [24/Dec/2025 17:49:42] "GET /auth/login HTTP/1.1" 200 -
+2025-12-24 17:49:43,000 werkzeug INFO 127.0.0.1 - - [24/Dec/2025 17:49:43] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-12-24 17:49:50,270 parking_auth_logger INFO Успешный вход пользователя с email: nk041486@gmail.com
+2025-12-24 17:49:50,272 werkzeug INFO 127.0.0.1 - - [24/Dec/2025 17:49:50] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2025-12-24 17:49:53,624 werkzeug INFO 127.0.0.1 - - [24/Dec/2025 17:49:53] "GET /auth/profile HTTP/1.1" 200 -
+2025-12-24 17:49:53,685 werkzeug INFO 127.0.0.1 - - [24/Dec/2025 17:49:53] "[36mGET /static/css/main_menu.css HTTP/1.1[0m" 304 -
+2025-12-24 17:52:09,541 werkzeug INFO 127.0.0.1 - - [24/Dec/2025 17:52:09] "[35m[1mGET /auth/profile HTTP/1.1[0m" 500 -
+2025-12-24 17:52:09,594 werkzeug INFO 127.0.0.1 - - [24/Dec/2025 17:52:09] "GET /auth/profile?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-12-24 17:52:09,756 werkzeug INFO 127.0.0.1 - - [24/Dec/2025 17:52:09] "GET /auth/profile?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-12-24 17:52:10,160 werkzeug INFO 127.0.0.1 - - [24/Dec/2025 17:52:10] "GET /auth/profile?__debugger__=yes&cmd=resource&f=console.png&s=CI6KMajo9xr61hQ3E4bs HTTP/1.1" 200 -
+2025-12-24 17:52:10,378 werkzeug INFO 127.0.0.1 - - [24/Dec/2025 17:52:10] "GET /auth/profile?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-12-24 17:52:47,907 werkzeug INFO 127.0.0.1 - - [24/Dec/2025 17:52:47] "GET /auth/profile HTTP/1.1" 200 -
+2025-12-24 17:52:48,213 werkzeug INFO 127.0.0.1 - - [24/Dec/2025 17:52:48] "GET /static/css/main_menu.css HTTP/1.1" 200 -
+2025-12-24 17:53:26,763 werkzeug INFO 127.0.0.1 - - [24/Dec/2025 17:53:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-24 18:33:23,085 werkzeug INFO 127.0.0.1 - - [24/Dec/2025 18:33:23] "GET /auth/register HTTP/1.1" 200 -
+2025-12-24 18:33:23,137 werkzeug INFO 127.0.0.1 - - [24/Dec/2025 18:33:23] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-12-24 18:33:57,677 werkzeug INFO 127.0.0.1 - - [24/Dec/2025 18:33:57] "GET /auth/register HTTP/1.1" 200 -
+2025-12-24 18:33:58,053 werkzeug INFO 127.0.0.1 - - [24/Dec/2025 18:33:58] "GET /static/css/login.css HTTP/1.1" 200 -
+2025-12-24 18:33:58,451 werkzeug INFO 127.0.0.1 - - [24/Dec/2025 18:33:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-25 09:22:51,596 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-12-25 09:22:51,597 werkzeug INFO [33mPress CTRL+C to quit[0m
+2025-12-25 09:22:51,600 werkzeug INFO  * Restarting with stat
+2025-12-25 09:22:52,547 werkzeug WARNING  * Debugger is active!
+2025-12-25 09:22:52,557 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-25 09:23:28,402 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 09:23:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-25 09:30:44,481 parking_auth_logger INFO Успешная регистрация пользователя с email: newuser@gmail.com
+2025-12-25 09:30:44,482 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 09:30:44] "[35m[1mPOST /auth/register HTTP/1.1[0m" 201 -
+2025-12-25 09:30:50,749 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 09:30:50] "GET /auth/register HTTP/1.1" 200 -
+2025-12-25 09:31:49,493 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-25 09:31:49,652 werkzeug INFO  * Restarting with stat
+2025-12-25 09:31:50,722 werkzeug WARNING  * Debugger is active!
+2025-12-25 09:31:50,730 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-25 09:31:53,893 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-25 09:31:54,027 werkzeug INFO  * Restarting with stat
+2025-12-25 09:31:55,054 werkzeug WARNING  * Debugger is active!
+2025-12-25 09:31:55,062 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-25 09:31:57,176 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-25 09:31:57,328 werkzeug INFO  * Restarting with stat
+2025-12-25 09:31:58,318 werkzeug WARNING  * Debugger is active!
+2025-12-25 09:31:58,326 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-25 09:31:59,449 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-25 09:31:59,583 werkzeug INFO  * Restarting with stat
+2025-12-25 09:32:00,735 werkzeug WARNING  * Debugger is active!
+2025-12-25 09:32:00,746 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-25 09:32:07,617 parking_auth_logger INFO Успешная регистрация пользователя с email: newuser2@gmail.com
+2025-12-25 09:32:07,656 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 09:32:07] "[35m[1mPOST /auth/register HTTP/1.1[0m" 500 -
+2025-12-25 09:32:07,827 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 09:32:07] "GET /auth/register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-12-25 09:32:07,848 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 09:32:07] "GET /auth/register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-12-25 09:32:08,224 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 09:32:08] "GET /auth/register?__debugger__=yes&cmd=resource&f=console.png&s=ZVOScldd5pp7yoYM2yzZ HTTP/1.1" 200 -
+2025-12-25 09:32:08,451 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 09:32:08] "GET /auth/register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-12-25 09:32:19,508 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-25 09:32:19,689 werkzeug INFO  * Restarting with stat
+2025-12-25 09:32:20,921 werkzeug WARNING  * Debugger is active!
+2025-12-25 09:32:20,929 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-25 09:32:22,055 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-25 09:32:22,191 werkzeug INFO  * Restarting with stat
+2025-12-25 09:32:23,152 werkzeug WARNING  * Debugger is active!
+2025-12-25 09:32:23,160 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-25 09:32:25,329 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-25 09:32:25,491 werkzeug INFO  * Restarting with stat
+2025-12-25 09:32:26,529 werkzeug WARNING  * Debugger is active!
+2025-12-25 09:32:26,537 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-25 09:32:33,566 parking_auth_logger INFO Успешная регистрация пользователя с email: newuser3@gmail.com
+2025-12-25 09:32:33,567 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 09:32:33] "[32mPOST /auth/register HTTP/1.1[0m" 302 -
+2025-12-25 09:32:33,594 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 09:32:33] "GET /auth/login HTTP/1.1" 200 -
+2025-12-25 09:32:34,019 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 09:32:34] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-12-25 09:32:50,657 parking_auth_logger INFO Попытка войти под не существующим аккаунтом
+2025-12-25 09:32:50,660 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 09:32:50] "[31m[1mPOST /auth/login HTTP/1.1[0m" 401 -
+2025-12-25 09:34:08,789 parking_auth_logger INFO Успешный вход пользователя с email: newuser@gmail.com
+2025-12-25 09:34:08,790 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 09:34:08] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2025-12-25 09:53:09,282 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 09:53:09] "[31m[1mGET /auth/profile HTTP/1.1[0m" 401 -
+2025-12-25 09:53:18,341 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 09:53:18] "GET /auth/login HTTP/1.1" 200 -
+2025-12-25 09:53:22,853 parking_auth_logger INFO Успешный вход пользователя с email: newuser@gmail.com
+2025-12-25 09:53:22,855 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 09:53:22] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2025-12-25 09:53:24,759 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 09:53:24] "GET /auth/profile HTTP/1.1" 200 -
+2025-12-25 09:53:25,015 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 09:53:25] "[36mGET /static/css/main_menu.css HTTP/1.1[0m" 304 -
+2025-12-25 09:54:14,130 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-25 09:54:14,302 werkzeug INFO  * Restarting with stat
+2025-12-25 09:54:15,470 werkzeug WARNING  * Debugger is active!
+2025-12-25 09:54:15,478 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-25 09:54:17,184 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 09:54:17] "[35m[1mGET /auth/profile HTTP/1.1[0m" 500 -
+2025-12-25 09:54:17,325 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 09:54:17] "[36mGET /auth/profile?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-12-25 09:54:17,353 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 09:54:17] "[36mGET /auth/profile?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-12-25 09:54:17,761 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 09:54:17] "GET /auth/profile?__debugger__=yes&cmd=resource&f=console.png&s=lSKzW3ZHthVyMtP0S6sx HTTP/1.1" 200 -
+2025-12-25 09:54:18,010 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 09:54:18] "[36mGET /auth/profile?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-12-25 09:54:53,020 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-25 09:54:53,178 werkzeug INFO  * Restarting with stat
+2025-12-25 09:54:54,962 werkzeug WARNING  * Debugger is active!
+2025-12-25 09:54:54,974 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-25 09:54:55,865 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 09:54:55] "GET /auth/profile HTTP/1.1" 200 -
+2025-12-25 09:54:55,987 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 09:54:55] "[36mGET /static/css/main_menu.css HTTP/1.1[0m" 304 -
+2025-12-25 10:31:51,925 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 10:31:51] "[31m[1mGET /auth/profile HTTP/1.1[0m" 401 -
+2025-12-25 11:08:21,470 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:08:21] "[31m[1mGET /auth/profile HTTP/1.1[0m" 401 -
+2025-12-25 11:08:31,294 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:08:31] "GET /auth/login HTTP/1.1" 200 -
+2025-12-25 11:08:31,424 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:08:31] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-12-25 11:08:39,020 parking_auth_logger INFO Успешный вход пользователя с email: newuser@gmail.com
+2025-12-25 11:08:39,022 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:08:39] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2025-12-25 11:08:41,466 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:08:41] "GET /auth/profile HTTP/1.1" 200 -
+2025-12-25 11:08:41,519 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:08:41] "[36mGET /static/css/main_menu.css HTTP/1.1[0m" 304 -
+2025-12-25 11:08:43,526 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:08:43] "[33mGET /parking/favorites HTTP/1.1[0m" 404 -
+2025-12-25 11:08:58,204 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:08:58] "[33mGET /parking/favorites HTTP/1.1[0m" 404 -
+2025-12-25 11:09:38,455 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:09:38] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-12-25 11:09:43,540 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:09:43] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-12-25 11:18:39,110 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:18:39] "GET /auth/profile HTTP/1.1" 200 -
+2025-12-25 11:18:39,187 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:18:39] "[36mGET /static/css/main_menu.css HTTP/1.1[0m" 304 -
+2025-12-25 11:23:32,014 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:23:32] "[31m[1mPOST /auth/edit-users/6 HTTP/1.1[0m" 405 -
+2025-12-25 11:24:31,667 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:24:31] "[31m[1mGET /auth/profile HTTP/1.1[0m" 401 -
+2025-12-25 11:24:31,970 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:24:31] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-25 11:24:39,896 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:24:39] "[31m[1mGET /auth/profile HTTP/1.1[0m" 401 -
+2025-12-25 11:24:43,442 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:24:43] "[33mGET /auth/kogin HTTP/1.1[0m" 404 -
+2025-12-25 11:24:47,837 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:24:47] "GET /auth/login HTTP/1.1" 200 -
+2025-12-25 11:24:48,162 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:24:48] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-12-25 11:24:54,194 parking_auth_logger INFO Успешный вход пользователя с email: newuser@gmail.com
+2025-12-25 11:24:54,195 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:24:54] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2025-12-25 11:24:56,003 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:24:56] "GET /auth/profile HTTP/1.1" 200 -
+2025-12-25 11:24:56,259 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:24:56] "[36mGET /static/css/main_menu.css HTTP/1.1[0m" 304 -
+2025-12-25 11:25:06,465 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:25:06] "[31m[1mGET /auth/edit-users/6?name=new&surname=user1&email=newuser10@gmail.com HTTP/1.1[0m" 405 -
+2025-12-25 11:25:38,447 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:25:38] "[36mGET /static/css/main_menu.css HTTP/1.1[0m" 304 -
+2025-12-25 11:25:38,467 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:25:38] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-12-25 11:26:48,358 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:26:48] "[31m[1mGET /auth/edit-users/6?name=new&surname=user1&email=newuser10@gmail.com HTTP/1.1[0m" 405 -
+2025-12-25 11:26:48,437 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:26:48] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-12-25 11:27:20,178 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:27:20] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-12-25 11:27:25,486 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:27:25] "[31m[1mGET /auth/edit-users/6?name=new&surname=user&email=newuser10@gmail.com HTTP/1.1[0m" 405 -
+2025-12-25 11:27:25,791 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:27:25] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-12-25 11:27:29,025 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:27:29] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-12-25 11:27:29,026 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:27:29] "[36mGET /static/css/main_menu.css HTTP/1.1[0m" 304 -
+2025-12-25 11:27:29,286 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:27:29] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-12-25 11:36:13,085 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-25 11:36:13,252 werkzeug INFO  * Restarting with stat
+2025-12-25 11:38:59,316 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-12-25 11:38:59,316 werkzeug INFO [33mPress CTRL+C to quit[0m
+2025-12-25 11:38:59,318 werkzeug INFO  * Restarting with stat
+2025-12-25 11:39:00,834 werkzeug WARNING  * Debugger is active!
+2025-12-25 11:39:00,854 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-25 11:39:25,149 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:39:25] "GET /auth/login HTTP/1.1" 200 -
+2025-12-25 11:39:25,496 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:39:25] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-12-25 11:39:25,517 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:39:25] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-12-25 11:39:36,831 parking_auth_logger INFO Успешный вход пользователя с email: newuser@gmail.com
+2025-12-25 11:39:36,833 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:39:36] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2025-12-25 11:39:41,032 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:39:41] "GET /auth/profile HTTP/1.1" 200 -
+2025-12-25 11:39:41,158 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:39:41] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-12-25 11:39:41,478 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:39:41] "[36mGET /static/css/main_menu.css HTTP/1.1[0m" 304 -
+2025-12-25 11:39:48,865 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:39:48] "[31m[1mGET /auth/update_user/6?name=new&surname=user1&email=newuser10@gmail.com HTTP/1.1[0m" 405 -
+2025-12-25 11:39:48,945 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:39:48] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-12-25 11:39:57,674 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:39:57] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-12-25 11:39:57,998 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:39:57] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-12-25 11:39:57,999 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:39:57] "[36mGET /static/css/main_menu.css HTTP/1.1[0m" 304 -
+2025-12-25 11:39:59,231 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:39:59] "GET /auth/profile HTTP/1.1" 200 -
+2025-12-25 11:39:59,528 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:39:59] "GET /static/css/main_menu.css HTTP/1.1" 200 -
+2025-12-25 11:39:59,607 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:39:59] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-12-25 11:40:05,546 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:40:05] "[35m[1mPOST /auth/update_user/6 HTTP/1.1[0m" 500 -
+2025-12-25 11:40:05,655 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:40:05] "GET /auth/update_user/6?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-12-25 11:40:05,803 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:40:05] "GET /auth/update_user/6?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-12-25 11:40:05,977 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:40:05] "GET /auth/update_user/6?__debugger__=yes&cmd=resource&f=console.png&s=GFziY2JGgZKAwZOY7KNc HTTP/1.1" 200 -
+2025-12-25 11:40:06,131 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:40:06] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-12-25 11:40:07,268 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:40:07] "GET /auth/update_user/6?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-12-25 11:40:34,337 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:40:34] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-12-25 11:40:38,973 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-25 11:40:39,122 werkzeug INFO  * Restarting with stat
+2025-12-25 11:40:40,216 werkzeug WARNING  * Debugger is active!
+2025-12-25 11:40:40,224 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-25 11:40:43,436 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:40:43] "[32mPOST /auth/update_user/6 HTTP/1.1[0m" 302 -
+2025-12-25 11:40:43,453 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:40:43] "GET /auth/profile HTTP/1.1" 200 -
+2025-12-25 11:40:43,763 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:40:43] "[36mGET /static/css/main_menu.css HTTP/1.1[0m" 304 -
+2025-12-25 11:40:43,805 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:40:43] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-12-25 11:40:47,125 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:40:47] "GET /auth/profile HTTP/1.1" 200 -
+2025-12-25 11:40:47,172 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:40:47] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-12-25 11:40:47,387 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:40:47] "[36mGET /static/css/main_menu.css HTTP/1.1[0m" 304 -
+2025-12-25 11:40:49,513 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:40:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-25 11:41:13,643 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:41:13] "[32mPOST /auth/update_user/6 HTTP/1.1[0m" 302 -
+2025-12-25 11:41:13,953 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:41:13] "GET /auth/profile HTTP/1.1" 200 -
+2025-12-25 11:41:14,326 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:41:14] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-12-25 11:41:14,328 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:41:14] "[36mGET /static/css/main_menu.css HTTP/1.1[0m" 304 -
+2025-12-25 11:41:49,398 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-12-25 11:41:49,398 werkzeug INFO [33mPress CTRL+C to quit[0m
+2025-12-25 11:41:49,400 werkzeug INFO  * Restarting with stat
+2025-12-25 11:41:50,354 werkzeug WARNING  * Debugger is active!
+2025-12-25 11:41:50,362 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-25 11:41:56,036 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:41:56] "[32mPOST /auth/update_user/6 HTTP/1.1[0m" 302 -
+2025-12-25 11:41:56,055 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:41:56] "GET /auth/profile HTTP/1.1" 200 -
+2025-12-25 11:41:56,338 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:41:56] "[36mGET /static/css/main_menu.css HTTP/1.1[0m" 304 -
+2025-12-25 11:41:56,404 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:41:56] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-12-25 11:42:12,182 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-25 11:42:12,344 werkzeug INFO  * Restarting with stat
+2025-12-25 11:42:13,866 werkzeug WARNING  * Debugger is active!
+2025-12-25 11:42:13,875 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-25 11:42:18,280 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:42:18] "GET /auth/profile HTTP/1.1" 200 -
+2025-12-25 11:42:18,310 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:42:18] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-12-25 11:42:18,580 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:42:18] "GET /static/css/main_menu.css HTTP/1.1" 200 -
+2025-12-25 11:42:25,011 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:42:25] "[31m[1mGET /auth/update_user/6?name=new&surname=user1&email=newuser10@gmail.com HTTP/1.1[0m" 405 -
+2025-12-25 11:42:25,071 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:42:25] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-12-25 11:42:26,196 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:42:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-25 11:42:39,935 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-25 11:42:40,103 werkzeug INFO  * Restarting with stat
+2025-12-25 11:42:41,277 werkzeug WARNING  * Debugger is active!
+2025-12-25 11:42:41,286 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-25 11:42:48,921 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:42:48] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-12-25 11:42:48,979 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:42:48] "[36mGET /static/css/main_menu.css HTTP/1.1[0m" 304 -
+2025-12-25 11:42:49,197 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:42:49] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-12-25 11:43:36,671 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-25 11:43:36,824 werkzeug INFO  * Restarting with stat
+2025-12-25 11:43:38,161 werkzeug WARNING  * Debugger is active!
+2025-12-25 11:43:38,170 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-25 11:43:39,286 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-25 11:43:39,440 werkzeug INFO  * Restarting with stat
+2025-12-25 11:43:52,816 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-12-25 11:43:52,816 werkzeug INFO [33mPress CTRL+C to quit[0m
+2025-12-25 11:43:52,818 werkzeug INFO  * Restarting with stat
+2025-12-25 11:43:53,937 werkzeug WARNING  * Debugger is active!
+2025-12-25 11:43:53,944 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-25 11:44:01,749 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:44:01] "[31m[1mGET /auth/update_user/6?name=new&surname=user1&email=newuser10@gmail.com HTTP/1.1[0m" 405 -
+2025-12-25 11:44:01,835 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:44:01] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-12-25 11:44:05,504 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:44:05] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-12-25 11:44:05,838 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:44:05] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-12-25 11:44:08,902 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-25 11:44:09,084 werkzeug INFO  * Restarting with stat
+2025-12-25 11:44:10,308 werkzeug WARNING  * Debugger is active!
+2025-12-25 11:44:10,319 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-25 11:44:11,169 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:44:11] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-12-25 11:44:12,101 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:44:12] "GET /auth/profile HTTP/1.1" 200 -
+2025-12-25 11:44:12,151 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:44:12] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-12-25 11:44:12,523 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:44:12] "GET /static/css/main_menu.css HTTP/1.1" 200 -
+2025-12-25 11:44:20,362 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:44:20] "[32mPOST /auth/update_user/6 HTTP/1.1[0m" 302 -
+2025-12-25 11:44:20,369 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:44:20] "GET /auth/profile HTTP/1.1" 200 -
+2025-12-25 11:44:20,621 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:44:20] "[36mGET /static/css/main_menu.css HTTP/1.1[0m" 304 -
+2025-12-25 11:44:20,729 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:44:20] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-12-25 11:44:38,869 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-25 11:44:39,134 werkzeug INFO  * Restarting with stat
+2025-12-25 11:44:40,517 werkzeug WARNING  * Debugger is active!
+2025-12-25 11:44:40,525 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-25 11:44:50,012 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:44:50] "[35m[1mPOST /auth/update_user/6 HTTP/1.1[0m" 500 -
+2025-12-25 11:44:50,093 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:44:50] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-12-25 11:44:50,307 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:44:50] "[36mGET /auth/update_user/6?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-12-25 11:44:50,401 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:44:50] "[36mGET /auth/update_user/6?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-12-25 11:44:50,730 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:44:50] "GET /auth/update_user/6?__debugger__=yes&cmd=resource&f=console.png&s=ja1i3JZbX1peAKyFfGjf HTTP/1.1" 200 -
+2025-12-25 11:45:12,878 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-25 11:45:13,064 werkzeug INFO  * Restarting with stat
+2025-12-25 11:45:14,244 werkzeug WARNING  * Debugger is active!
+2025-12-25 11:45:14,252 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-25 11:45:21,631 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-25 11:45:21,885 werkzeug INFO  * Restarting with stat
+2025-12-25 11:45:23,023 werkzeug WARNING  * Debugger is active!
+2025-12-25 11:45:23,033 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-25 11:45:23,134 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-25 11:45:23,294 werkzeug INFO  * Restarting with stat
+2025-12-25 11:45:24,436 werkzeug WARNING  * Debugger is active!
+2025-12-25 11:45:24,444 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-25 11:46:02,001 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-25 11:46:02,146 werkzeug INFO  * Restarting with stat
+2025-12-25 11:46:03,201 werkzeug WARNING  * Debugger is active!
+2025-12-25 11:46:03,209 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-25 11:46:09,293 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:46:09] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-12-25 11:46:11,613 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:46:11] "GET /auth/profile HTTP/1.1" 200 -
+2025-12-25 11:46:11,664 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:46:11] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-12-25 11:46:12,030 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:46:12] "GET /static/css/main_menu.css HTTP/1.1" 200 -
+2025-12-25 11:46:18,290 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:46:18] "[35m[1mPOST /auth/update_user/6 HTTP/1.1[0m" 500 -
+2025-12-25 11:46:18,406 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:46:18] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-12-25 11:46:18,508 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:46:18] "[36mGET /auth/update_user/6?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-12-25 11:46:18,746 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:46:18] "[36mGET /auth/update_user/6?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-12-25 11:46:19,102 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:46:19] "GET /auth/update_user/6?__debugger__=yes&cmd=resource&f=console.png&s=CUhZ3G2Opfvq5soTpmTw HTTP/1.1" 200 -
+2025-12-25 11:49:51,232 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-25 11:49:51,402 werkzeug INFO  * Restarting with stat
+2025-12-25 11:49:52,434 werkzeug WARNING  * Debugger is active!
+2025-12-25 11:49:52,441 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-25 11:50:15,388 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-25 11:50:15,576 werkzeug INFO  * Restarting with stat
+2025-12-25 11:50:17,196 werkzeug WARNING  * Debugger is active!
+2025-12-25 11:50:17,204 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-25 11:50:21,863 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:50:21] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-12-25 11:50:24,579 parking_auth_logger INFO Успешно обновлены данные
+2025-12-25 11:50:24,580 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:50:24] "[32mPOST /auth/update_user/6 HTTP/1.1[0m" 302 -
+2025-12-25 11:50:24,597 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:50:24] "GET /auth/profile HTTP/1.1" 200 -
+2025-12-25 11:50:25,044 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:50:25] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-12-25 11:50:25,070 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:50:25] "[36mGET /static/css/main_menu.css HTTP/1.1[0m" 304 -
+2025-12-25 11:51:01,132 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 11:51:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-25 12:04:26,772 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 12:04:26] "GET /auth/login HTTP/1.1" 200 -
+2025-12-25 12:04:27,032 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 12:04:27] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-12-25 12:04:28,854 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 12:04:28] "GET /auth/login HTTP/1.1" 200 -
+2025-12-25 12:04:29,166 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 12:04:29] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-12-25 12:04:31,821 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 12:04:31] "GET /auth/register HTTP/1.1" 200 -
+2025-12-25 12:04:31,887 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 12:04:31] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-12-25 12:04:50,675 parking_auth_logger INFO Успешная регистрация пользователя с email: newadmin@gmail.com
+2025-12-25 12:04:50,676 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 12:04:50] "[32mPOST /auth/register HTTP/1.1[0m" 302 -
+2025-12-25 12:04:50,826 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 12:04:50] "GET /auth/login HTTP/1.1" 200 -
+2025-12-25 12:04:51,188 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 12:04:51] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-12-25 12:18:02,134 parking_auth_logger INFO ПОЛУЧЕНИЕ ВСЕХ ПОЛЬЗОВАТЕЛЕЙ
+2025-12-25 12:18:02,137 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 12:18:02] "GET /auth/get_all_users HTTP/1.1" 200 -
+2025-12-25 12:18:12,480 parking_auth_logger INFO Обновление пользователя ID=9
+2025-12-25 12:18:12,485 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 12:18:12] "PUT /auth/edit-users/9 HTTP/1.1" 200 -
+2025-12-25 12:18:14,539 parking_auth_logger INFO ПОЛУЧЕНИЕ ВСЕХ ПОЛЬЗОВАТЕЛЕЙ
+2025-12-25 12:18:14,541 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 12:18:14] "GET /auth/get_all_users HTTP/1.1" 200 -
+2025-12-25 12:18:24,668 parking_auth_logger INFO Обновление пользователя ID=9
+2025-12-25 12:18:24,671 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 12:18:24] "PUT /auth/edit-users/9 HTTP/1.1" 200 -
+2025-12-25 12:18:26,701 parking_auth_logger INFO ПОЛУЧЕНИЕ ВСЕХ ПОЛЬЗОВАТЕЛЕЙ
+2025-12-25 12:18:26,703 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 12:18:26] "GET /auth/get_all_users HTTP/1.1" 200 -
+2025-12-25 12:18:48,763 parking_auth_logger INFO Обновление пользователя ID=5
+2025-12-25 12:18:48,766 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 12:18:48] "PUT /auth/edit-users/5 HTTP/1.1" 200 -
+2025-12-25 12:18:50,806 parking_auth_logger INFO ПОЛУЧЕНИЕ ВСЕХ ПОЛЬЗОВАТЕЛЕЙ
+2025-12-25 12:18:50,808 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 12:18:50] "GET /auth/get_all_users HTTP/1.1" 200 -
+2025-12-25 12:19:13,416 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-25 12:19:13,753 werkzeug INFO  * Restarting with stat
+2025-12-25 12:19:14,993 werkzeug WARNING  * Debugger is active!
+2025-12-25 12:19:15,001 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-25 12:19:19,838 parking_auth_logger INFO Обновление пользователя ID=5
+2025-12-25 12:19:19,861 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 12:19:19] "PUT /auth/edit-users/5 HTTP/1.1" 200 -
+2025-12-25 12:19:21,904 parking_auth_logger INFO ПОЛУЧЕНИЕ ВСЕХ ПОЛЬЗОВАТЕЛЕЙ
+2025-12-25 12:19:21,909 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 12:19:21] "GET /auth/get_all_users HTTP/1.1" 200 -
+2025-12-25 12:21:06,446 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-25 12:21:06,576 werkzeug INFO  * Restarting with stat
+2025-12-25 12:21:07,549 werkzeug WARNING  * Debugger is active!
+2025-12-25 12:21:07,556 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-25 12:22:00,074 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-25 12:22:00,410 werkzeug INFO  * Restarting with stat
+2025-12-25 12:22:01,965 werkzeug WARNING  * Debugger is active!
+2025-12-25 12:22:01,974 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-25 12:22:08,430 parking_auth_logger INFO Обновление пользователя ID=9
+2025-12-25 12:22:08,441 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 12:22:08] "PUT /auth/edit-users/9 HTTP/1.1" 200 -
+2025-12-25 12:22:10,478 parking_auth_logger INFO ПОЛУЧЕНИЕ ВСЕХ ПОЛЬЗОВАТЕЛЕЙ
+2025-12-25 12:22:10,481 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 12:22:10] "GET /auth/get_all_users HTTP/1.1" 200 -
+2025-12-25 12:22:46,932 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-25 12:22:47,209 werkzeug INFO  * Restarting with stat
+2025-12-25 12:22:48,285 werkzeug WARNING  * Debugger is active!
+2025-12-25 12:22:48,293 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-25 12:22:49,407 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-25 12:22:49,566 werkzeug INFO  * Restarting with stat
+2025-12-25 12:22:50,800 werkzeug WARNING  * Debugger is active!
+2025-12-25 12:22:50,808 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-25 12:22:53,310 parking_auth_logger INFO ПОЛУЧЕНИЕ ВСЕХ ПОЛЬЗОВАТЕЛЕЙ
+2025-12-25 12:22:53,317 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 12:22:53] "GET /auth/get_all_users HTTP/1.1" 200 -
+2025-12-25 12:23:15,231 parking_auth_logger INFO Обновление пользователя ID=6
+2025-12-25 12:23:15,237 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 12:23:15] "PUT /auth/edit-users/6 HTTP/1.1" 200 -
+2025-12-25 12:23:17,296 parking_auth_logger INFO ПОЛУЧЕНИЕ ВСЕХ ПОЛЬЗОВАТЕЛЕЙ
+2025-12-25 12:23:17,298 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 12:23:17] "GET /auth/get_all_users HTTP/1.1" 200 -
+2025-12-25 12:23:47,227 parking_auth_logger INFO Обновление пользователя ID=5
+2025-12-25 12:23:47,235 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 12:23:47] "PUT /auth/edit-users/5 HTTP/1.1" 200 -
+2025-12-25 12:23:49,270 parking_auth_logger INFO ПОЛУЧЕНИЕ ВСЕХ ПОЛЬЗОВАТЕЛЕЙ
+2025-12-25 12:23:49,272 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 12:23:49] "GET /auth/get_all_users HTTP/1.1" 200 -
+2025-12-25 12:24:27,293 parking_auth_logger INFO ПОЛУЧЕНИЕ ВСЕХ ПОЛЬЗОВАТЕЛЕЙ
+2025-12-25 12:24:27,294 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 12:24:27] "GET /auth/get_all_users HTTP/1.1" 200 -
+2025-12-25 12:24:33,746 parking_auth_logger INFO Обновление пользователя ID=9
+2025-12-25 12:24:33,751 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 12:24:33] "PUT /auth/edit-users/9 HTTP/1.1" 200 -
+2025-12-25 12:24:35,773 parking_auth_logger INFO ПОЛУЧЕНИЕ ВСЕХ ПОЛЬЗОВАТЕЛЕЙ
+2025-12-25 12:24:35,778 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 12:24:35] "GET /auth/get_all_users HTTP/1.1" 200 -
+2025-12-25 12:26:03,612 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-25 12:26:03,758 werkzeug INFO  * Restarting with stat
+2025-12-25 12:26:04,881 werkzeug WARNING  * Debugger is active!
+2025-12-25 12:26:04,888 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-25 12:26:11,240 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-25 12:26:11,457 werkzeug INFO  * Restarting with stat
+2025-12-25 12:26:12,771 werkzeug WARNING  * Debugger is active!
+2025-12-25 12:26:12,780 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-25 12:26:17,006 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-25 12:26:17,147 werkzeug INFO  * Restarting with stat
+2025-12-25 12:26:18,459 werkzeug WARNING  * Debugger is active!
+2025-12-25 12:26:18,467 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-25 12:26:24,696 parking_auth_logger INFO Обновление пользователя ID=9
+2025-12-25 12:26:24,712 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 12:26:24] "PUT /auth/edit-users/9 HTTP/1.1" 200 -
+2025-12-25 12:26:26,746 parking_auth_logger INFO ПОЛУЧЕНИЕ ВСЕХ ПОЛЬЗОВАТЕЛЕЙ
+2025-12-25 12:26:26,748 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 12:26:26] "GET /auth/get_all_users HTTP/1.1" 200 -
+2025-12-25 12:28:54,764 parking_auth_logger INFO ПОЛУЧЕНИЕ ВСЕХ ПОЛЬЗОВАТЕЛЕЙ
+2025-12-25 12:28:54,767 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 12:28:54] "GET /auth/get_all_users HTTP/1.1" 200 -
+2025-12-25 12:29:24,754 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-25 12:29:25,043 werkzeug INFO  * Restarting with stat
+2025-12-25 12:29:26,445 werkzeug WARNING  * Debugger is active!
+2025-12-25 12:29:26,453 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-25 12:29:30,971 parking_auth_logger INFO Обновление пользователя ID=5
+2025-12-25 12:29:30,987 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 12:29:30] "PUT /auth/edit-users/5 HTTP/1.1" 200 -
+2025-12-25 12:29:33,041 parking_auth_logger INFO ПОЛУЧЕНИЕ ВСЕХ ПОЛЬЗОВАТЕЛЕЙ
+2025-12-25 12:29:33,045 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 12:29:33] "GET /auth/get_all_users HTTP/1.1" 200 -
+2025-12-25 12:32:55,341 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-25 12:32:55,557 werkzeug INFO  * Restarting with stat
+2025-12-25 12:32:56,695 werkzeug WARNING  * Debugger is active!
+2025-12-25 12:32:56,712 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-25 12:33:02,028 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-25 12:33:02,608 werkzeug INFO  * Restarting with stat
+2025-12-25 12:33:04,204 werkzeug WARNING  * Debugger is active!
+2025-12-25 12:33:04,213 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-25 12:33:07,363 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-25 12:33:07,501 werkzeug INFO  * Restarting with stat
+2025-12-25 12:33:08,520 werkzeug WARNING  * Debugger is active!
+2025-12-25 12:33:08,527 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-25 12:33:22,108 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-25 12:33:22,314 werkzeug INFO  * Restarting with stat
+2025-12-25 12:33:23,738 werkzeug WARNING  * Debugger is active!
+2025-12-25 12:33:23,746 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-25 12:34:29,206 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-25 12:34:29,347 werkzeug INFO  * Restarting with stat
+2025-12-25 12:35:02,216 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-12-25 12:35:02,216 werkzeug INFO [33mPress CTRL+C to quit[0m
+2025-12-25 12:35:02,218 werkzeug INFO  * Restarting with stat
+2025-12-25 12:35:03,816 werkzeug WARNING  * Debugger is active!
+2025-12-25 12:35:03,823 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-25 12:35:14,271 parking_auth_logger INFO Обновление пользователя ID=5
+2025-12-25 12:35:14,285 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 12:35:14] "PUT /auth/edit-users/5 HTTP/1.1" 200 -
+2025-12-25 12:35:16,310 parking_auth_logger INFO ПОЛУЧЕНИЕ ВСЕХ ПОЛЬЗОВАТЕЛЕЙ
+2025-12-25 12:35:16,312 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 12:35:16] "GET /auth/get_all_users HTTP/1.1" 200 -
+2025-12-25 12:35:39,407 parking_auth_logger INFO ПОЛУЧЕНИЕ ВСЕХ ПОЛЬЗОВАТЕЛЕЙ
+2025-12-25 12:35:39,411 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 12:35:39] "GET /auth/get_all_users HTTP/1.1" 200 -
+2025-12-25 12:35:50,441 parking_auth_logger INFO ПОЛУЧЕНИЕ ВСЕХ ПОЛЬЗОВАТЕЛЕЙ
+2025-12-25 12:35:50,442 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 12:35:50] "GET /auth/get_all_users HTTP/1.1" 200 -
+2025-12-25 12:36:18,549 parking_auth_logger INFO ПОЛУЧЕНИЕ ВСЕХ ПОЛЬЗОВАТЕЛЕЙ
+2025-12-25 12:36:18,551 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 12:36:18] "GET /auth/get_all_users HTTP/1.1" 200 -
+2025-12-25 12:37:16,934 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 12:37:16] "GET /auth/login HTTP/1.1" 200 -
+2025-12-25 12:37:17,103 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 12:37:17] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-12-25 12:37:18,093 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 12:37:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-25 13:48:52,086 parking_auth_logger INFO ПОЛУЧЕНИЕ ВСЕХ ПОЛЬЗОВАТЕЛЕЙ
+2025-12-25 13:48:52,117 parking_auth_logger INFO ПОЛУЧЕНИЕ ВСЕХ ПОЛЬЗОВАТЕЛЕЙ
+2025-12-25 13:48:52,124 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 13:48:52] "GET /auth/get_all_users HTTP/1.1" 200 -
+2025-12-25 13:48:52,302 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 13:48:52] "GET /auth/get_all_users HTTP/1.1" 200 -
+2025-12-25 13:51:46,839 parking_auth_logger INFO Обновление пользователя ID=6
+2025-12-25 13:51:46,853 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 13:51:46] "PUT /auth/edit-users/6 HTTP/1.1" 200 -
+2025-12-25 13:51:48,891 parking_auth_logger INFO ПОЛУЧЕНИЕ ВСЕХ ПОЛЬЗОВАТЕЛЕЙ
+2025-12-25 13:51:48,893 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 13:51:48] "GET /auth/get_all_users HTTP/1.1" 200 -
+2025-12-25 13:56:23,134 parking_auth_logger INFO Попытка войти под не существующим аккаунтом
+2025-12-25 13:56:23,136 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 13:56:23] "[31m[1mPOST /auth/login HTTP/1.1[0m" 401 -
+2025-12-25 13:56:42,767 parking_auth_logger INFO Успешный вход пользователя с email: newuser@gmail.com
+2025-12-25 13:56:42,768 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 13:56:42] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2025-12-25 13:56:51,830 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 13:56:51] "[35m[1mGET /auth/profile HTTP/1.1[0m" 500 -
+2025-12-25 13:56:52,029 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 13:56:52] "[36mGET /auth/profile?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-12-25 13:56:52,228 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 13:56:52] "[36mGET /auth/profile?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-12-25 13:56:52,628 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 13:56:52] "GET /auth/profile?__debugger__=yes&cmd=resource&f=console.png&s=7jNKN5e7s0zK4OjwtPzP HTTP/1.1" 200 -
+2025-12-25 13:56:52,896 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 13:56:52] "[36mGET /auth/profile?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-12-25 13:57:36,065 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 13:57:36] "[35m[1mGET /auth/profile HTTP/1.1[0m" 500 -
+2025-12-25 13:57:36,353 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 13:57:36] "[36mGET /auth/profile?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-12-25 13:57:36,447 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 13:57:36] "[36mGET /auth/profile?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-12-25 13:57:36,763 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 13:57:36] "[36mGET /auth/profile?__debugger__=yes&cmd=resource&f=console.png&s=7jNKN5e7s0zK4OjwtPzP HTTP/1.1[0m" 304 -
+2025-12-25 13:58:25,744 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 13:58:25] "[35m[1mGET /auth/profile HTTP/1.1[0m" 500 -
+2025-12-25 13:58:26,027 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 13:58:26] "[36mGET /auth/profile?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-12-25 13:58:26,091 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 13:58:26] "[36mGET /auth/profile?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-12-25 13:58:26,422 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 13:58:26] "[36mGET /auth/profile?__debugger__=yes&cmd=resource&f=console.png&s=7jNKN5e7s0zK4OjwtPzP HTTP/1.1[0m" 304 -
+2025-12-25 13:58:26,671 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 13:58:26] "[36mGET /auth/profile?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-12-25 13:58:48,279 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-25 13:58:48,532 werkzeug INFO  * Restarting with stat
+2025-12-25 13:58:49,938 werkzeug WARNING  * Debugger is active!
+2025-12-25 13:58:49,947 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-25 13:58:50,040 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 13:58:50] "GET /auth/profile HTTP/1.1" 200 -
+2025-12-25 13:58:50,171 werkzeug INFO 127.0.0.1 - - [25/Dec/2025 13:58:50] "[36mGET /static/css/main_menu.css HTTP/1.1[0m" 304 -
+2025-12-26 10:25:55,805 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-26 10:25:56,099 werkzeug INFO  * Restarting with stat
+2025-12-26 10:25:57,643 werkzeug WARNING  * Debugger is active!
+2025-12-26 10:25:57,651 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-26 10:26:01,842 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-26 10:26:02,001 werkzeug INFO  * Restarting with stat
+2025-12-26 10:27:24,579 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-12-26 10:27:24,579 werkzeug INFO [33mPress CTRL+C to quit[0m
+2025-12-26 10:27:24,582 werkzeug INFO  * Restarting with stat
+2025-12-26 10:27:25,687 werkzeug WARNING  * Debugger is active!
+2025-12-26 10:27:25,694 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-26 10:27:55,288 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 10:27:55] "GET /auth/login HTTP/1.1" 200 -
+2025-12-26 10:27:55,482 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 10:27:55] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-12-26 10:27:56,438 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 10:27:56] "GET /auth/login HTTP/1.1" 200 -
+2025-12-26 10:27:56,550 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 10:27:56] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-12-26 10:27:56,794 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 10:27:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-26 10:28:02,401 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 10:28:02] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2025-12-26 10:28:02,405 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 10:28:02] "[33mGET /admin/add-parking HTTP/1.1[0m" 404 -
+2025-12-26 10:28:10,919 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-26 10:28:11,063 werkzeug INFO  * Restarting with stat
+2025-12-26 10:28:12,577 werkzeug WARNING  * Debugger is active!
+2025-12-26 10:28:12,585 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-26 10:28:13,040 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 10:28:13] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2025-12-26 10:30:24,560 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\routes.py', reloading
+2025-12-26 10:30:24,717 werkzeug INFO  * Restarting with stat
+2025-12-26 10:30:25,792 werkzeug WARNING  * Debugger is active!
+2025-12-26 10:30:25,800 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-26 11:08:02,781 parking_auth_logger INFO ПОЛУЧЕНИЕ ВСЕХ ПОЛЬЗОВАТЕЛЕЙ
+2025-12-26 11:08:02,794 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 11:08:02] "GET /auth/get_all_users HTTP/1.1" 200 -
+2025-12-26 16:19:11,753 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 16:19:11] "GET /auth/login HTTP/1.1" 200 -
+2025-12-26 16:19:11,977 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 16:19:11] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-12-26 16:19:12,939 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 16:19:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-26 16:19:25,564 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 16:19:25] "GET /auth/register HTTP/1.1" 200 -
+2025-12-26 16:19:25,606 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 16:19:25] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-12-26 16:19:45,566 parking_auth_logger INFO Успешная регистрация пользователя с email: new@gmail.com
+2025-12-26 16:19:45,568 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 16:19:45] "[32mPOST /auth/register HTTP/1.1[0m" 302 -
+2025-12-26 16:19:45,686 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 16:19:45] "GET /auth/login HTTP/1.1" 200 -
+2025-12-26 16:19:46,045 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 16:19:46] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-12-26 16:19:52,465 parking_auth_logger INFO Успешный вход пользователя с email: new@gmail.com
+2025-12-26 16:19:52,466 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 16:19:52] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2025-12-26 16:21:15,706 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 16:21:15] "GET /auth/profile HTTP/1.1" 200 -
+2025-12-26 16:21:15,751 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 16:21:15] "[36mGET /static/css/main_menu.css HTTP/1.1[0m" 304 -
+2025-12-26 16:21:26,268 parking_auth_logger INFO Успешно обновлены данные
+2025-12-26 16:21:26,325 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 16:21:26] "[32mPOST /auth/update_user/10 HTTP/1.1[0m" 302 -
+2025-12-26 16:21:26,525 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 16:21:26] "GET /auth/profile HTTP/1.1" 200 -
+2025-12-26 16:21:26,870 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 16:21:26] "[36mGET /static/css/main_menu.css HTTP/1.1[0m" 304 -
+2025-12-26 16:21:37,268 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 16:21:37] "[33mGET /parking/favorites HTTP/1.1[0m" 404 -
+2025-12-26 16:30:22,783 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 16:30:22] "GET /auth/login HTTP/1.1" 200 -
+2025-12-26 16:30:22,867 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 16:30:22] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-12-26 16:30:36,664 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 16:30:36] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2025-12-26 16:50:19,150 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 16:50:19] "GET /auth/login HTTP/1.1" 200 -
+2025-12-26 16:50:19,214 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 16:50:19] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-12-26 16:50:31,948 parking_auth_logger INFO Попытка войти под не существующим аккаунтом
+2025-12-26 16:50:31,950 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 16:50:31] "[31m[1mPOST /auth/login HTTP/1.1[0m" 401 -
+2025-12-26 16:50:50,385 parking_auth_logger INFO Успешный вход пользователя с email: newuser@gmail.com
+2025-12-26 16:50:50,386 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 16:50:50] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2025-12-26 16:53:22,490 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 16:53:22] "GET /auth/profile HTTP/1.1" 200 -
+2025-12-26 16:53:22,562 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 16:53:22] "[36mGET /static/css/main_menu.css HTTP/1.1[0m" 304 -
+2025-12-26 16:53:24,319 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 16:53:24] "[33mGET /parking/favorites HTTP/1.1[0m" 404 -
+2025-12-26 16:56:03,096 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 16:56:03] "GET /auth/profile HTTP/1.1" 200 -
+2025-12-26 16:56:03,167 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 16:56:03] "[36mGET /static/css/main_menu.css HTTP/1.1[0m" 304 -
+2025-12-26 16:56:16,963 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 16:56:16] "[33mGET /parking/favorites HTTP/1.1[0m" 404 -
+2025-12-26 16:56:22,261 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 16:56:22] "[33mGET /parking/favorites HTTP/1.1[0m" 404 -
+2025-12-26 16:56:26,397 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 16:56:26] "[33mGET /parking/favorites HTTP/1.1[0m" 404 -
+2025-12-26 16:56:50,907 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 16:56:50] "[33mGET /parking/favorites HTTP/1.1[0m" 404 -
+2025-12-26 16:56:52,885 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 16:56:52] "GET /auth/profile HTTP/1.1" 200 -
+2025-12-26 16:56:52,910 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 16:56:52] "GET /static/css/main_menu.css HTTP/1.1" 200 -
+2025-12-26 16:56:56,139 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 16:56:56] "[33mGET /parking/favorites HTTP/1.1[0m" 404 -
+2025-12-26 16:56:57,083 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 16:56:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-26 16:57:52,019 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 16:57:52] "GET /auth/profile HTTP/1.1" 200 -
+2025-12-26 16:57:52,054 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 16:57:52] "[36mGET /static/css/main_menu.css HTTP/1.1[0m" 304 -
+2025-12-26 16:57:53,935 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 16:57:53] "[33mGET /parking/favorites HTTP/1.1[0m" 404 -
+2025-12-26 16:58:04,235 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 16:58:04] "GET /auth/profile HTTP/1.1" 200 -
+2025-12-26 16:58:04,270 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 16:58:04] "[36mGET /static/css/main_menu.css HTTP/1.1[0m" 304 -
+2025-12-26 16:58:33,928 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 16:58:33] "GET /auth/profile HTTP/1.1" 200 -
+2025-12-26 16:58:33,963 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 16:58:33] "GET /static/css/main_menu.css HTTP/1.1" 200 -
+2025-12-26 16:58:34,187 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 16:58:34] "GET /auth/profile HTTP/1.1" 200 -
+2025-12-26 16:58:34,342 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 16:58:34] "GET /static/css/main_menu.css HTTP/1.1" 200 -
+2025-12-26 17:00:00,920 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 17:00:00] "GET /auth/profile HTTP/1.1" 200 -
+2025-12-26 17:00:01,028 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 17:00:01] "[36mGET /static/css/main_menu.css HTTP/1.1[0m" 304 -
+2025-12-26 17:18:42,544 parking_auth_logger INFO ПОЛУЧЕНИЕ ВСЕХ ПОЛЬЗОВАТЕЛЕЙ
+2025-12-26 17:18:42,548 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 17:18:42] "GET /auth/get_all_users HTTP/1.1" 200 -
+2025-12-26 17:18:58,050 parking_auth_logger INFO Обновление пользователя ID=7
+2025-12-26 17:18:58,068 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 17:18:58] "PUT /auth/edit-users/7 HTTP/1.1" 200 -
+2025-12-26 17:19:00,118 parking_auth_logger INFO ПОЛУЧЕНИЕ ВСЕХ ПОЛЬЗОВАТЕЛЕЙ
+2025-12-26 17:19:00,120 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 17:19:00] "GET /auth/get_all_users HTTP/1.1" 200 -
+2025-12-26 21:17:16,203 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 21:17:16] "[31m[1mGET /auth/profile HTTP/1.1[0m" 401 -
+2025-12-26 21:17:16,664 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 21:17:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-26 21:17:20,365 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 21:17:20] "GET /auth/login HTTP/1.1" 200 -
+2025-12-26 21:17:20,751 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 21:17:20] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-12-26 21:17:23,123 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 21:17:23] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2025-12-26 21:18:31,845 parking_auth_logger INFO ПОЛУЧЕНИЕ ВСЕХ ПОЛЬЗОВАТЕЛЕЙ
+2025-12-26 21:18:31,859 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 21:18:31] "GET /auth/get_all_users HTTP/1.1" 200 -
+2025-12-26 21:18:35,028 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 21:18:35] "[31m[1mGET /auth/profile HTTP/1.1[0m" 401 -
+2025-12-26 21:18:50,434 parking_auth_logger INFO Обновление пользователя ID=9
+2025-12-26 21:18:50,447 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 21:18:50] "PUT /auth/edit-users/9 HTTP/1.1" 200 -
+2025-12-26 21:18:52,548 parking_auth_logger INFO ПОЛУЧЕНИЕ ВСЕХ ПОЛЬЗОВАТЕЛЕЙ
+2025-12-26 21:18:52,556 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 21:18:52] "GET /auth/get_all_users HTTP/1.1" 200 -
+2025-12-26 21:19:23,451 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 21:19:23] "GET /auth/login HTTP/1.1" 200 -
+2025-12-26 21:19:23,589 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 21:19:23] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-12-26 21:19:36,368 parking_auth_logger INFO Успешный вход пользователя с email: newuser@gmail.com
+2025-12-26 21:19:36,370 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 21:19:36] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2025-12-26 21:20:52,471 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 21:20:52] "GET /auth/profile HTTP/1.1" 200 -
+2025-12-26 21:20:52,545 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 21:20:52] "[36mGET /static/css/main_menu.css HTTP/1.1[0m" 304 -
+2025-12-26 21:21:38,296 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 21:21:38] "GET /auth/profile HTTP/1.1" 200 -
+2025-12-26 21:21:38,607 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 21:21:38] "[36mGET /static/css/main_menu.css HTTP/1.1[0m" 304 -
+2025-12-26 21:21:44,007 parking_auth_logger INFO Успешно обновлены данные
+2025-12-26 21:21:44,008 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 21:21:44] "[32mPOST /auth/update_user/6 HTTP/1.1[0m" 302 -
+2025-12-26 21:21:44,015 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 21:21:44] "GET /auth/profile HTTP/1.1" 200 -
+2025-12-26 21:21:44,269 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 21:21:44] "[36mGET /static/css/main_menu.css HTTP/1.1[0m" 304 -
+2025-12-26 21:22:06,830 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 21:22:06] "GET /auth/profile HTTP/1.1" 200 -
+2025-12-26 21:22:06,907 werkzeug INFO 127.0.0.1 - - [26/Dec/2025 21:22:06] "[36mGET /static/css/main_menu.css HTTP/1.1[0m" 304 -

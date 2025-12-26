@@ -1,0 +1,28 @@
+2025-11-20 16:44:57,660 werkzeug WARNING  * Debugger is active!
+2025-11-20 16:44:57,667 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-11-20 16:45:29,700 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\logger.py', reloading
+2025-11-20 16:46:04,382 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-20 16:46:04,382 werkzeug INFO [33mPress CTRL+C to quit[0m
+2025-11-20 16:46:04,385 werkzeug INFO  * Restarting with stat
+2025-11-20 16:46:05,189 werkzeug WARNING  * Debugger is active!
+2025-11-20 16:46:05,196 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-11-20 16:46:07,255 werkzeug INFO 127.0.0.1 - - [20/Nov/2025 16:46:07] "GET /auth/register HTTP/1.1" 200 -
+2025-11-20 16:46:08,651 werkzeug INFO 127.0.0.1 - - [20/Nov/2025 16:46:08] "GET /auth/login HTTP/1.1" 200 -
+2025-11-20 16:46:14,964 werkzeug INFO 127.0.0.1 - - [20/Nov/2025 16:46:14] "GET /auth/login?username=login1&password=pass HTTP/1.1" 200 -
+2025-11-20 16:47:22,204 werkzeug INFO 127.0.0.1 - - [20/Nov/2025 16:47:22] "GET /auth/login?username=login1&password=pass HTTP/1.1" 200 -
+2025-11-20 16:47:22,539 werkzeug INFO 127.0.0.1 - - [20/Nov/2025 16:47:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-20 16:47:28,501 parking_auth_logger INFO Успешный вход пользователя с username: login
+2025-11-20 16:47:28,502 werkzeug INFO 127.0.0.1 - - [20/Nov/2025 16:47:28] "POST /auth/login HTTP/1.1" 200 -
+2025-11-20 16:58:08,736 parking_auth_logger INFO Попытка войти под не существующим аккаунтом
+2025-11-20 16:58:08,738 werkzeug INFO 127.0.0.1 - - [20/Nov/2025 16:58:08] "[31m[1mPOST /auth/login HTTP/1.1[0m" 401 -
+2025-11-20 17:16:38,289 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\AuthService\\app\\models.py', reloading
+2025-11-20 17:16:38,445 werkzeug INFO  * Restarting with stat
+2025-12-19 15:26:31,343 flask_migrate ERROR Error: Path doesn't exist: migrations.  Please use the 'init' command to create a new scripts folder.
+2025-12-19 15:27:48,162 flask_migrate ERROR Error: Path doesn't exist: migrations.  Please use the 'init' command to create a new scripts folder.
+2025-12-19 15:29:13,535 flask_migrate ERROR Error: Path doesn't exist: migrations.  Please use the 'init' command to create a new scripts folder.
+2025-12-19 15:29:25,324 flask_migrate ERROR Error: Path doesn't exist: migrations.  Please use the 'init' command to create a new scripts folder.
+2025-12-19 15:34:24,605 flask_migrate ERROR Error: Path doesn't exist: migrations.  Please use the 'init' command to create a new scripts folder.
+2025-12-19 15:34:29,621 flask_migrate ERROR Error: Path doesn't exist: migrations.  Please use the 'init' command to create a new scripts folder.
+2025-12-19 15:35:47,486 flask_migrate ERROR Error: Path doesn't exist: migrations.  Please use the 'init' command to create a new scripts folder.
+2025-12-19 15:35:50,395 flask_migrate ERROR Error: Path doesn't exist: migrations.  Please use the 'init' command to create a new scripts folder.

@@ -1,0 +1,9 @@
+2025-12-11 18:30:31,699 werkzeug INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-12-11 18:30:31,699 werkzeug INFO [33mPress CTRL+C to quit[0m
+2025-12-11 18:30:31,701 werkzeug INFO  * Restarting with stat
+2025-12-11 18:30:32,854 werkzeug WARNING  * Debugger is active!
+2025-12-11 18:30:32,862 werkzeug INFO  * Debugger PIN: 786-981-811
+2025-12-11 18:34:18,580 werkzeug INFO 127.0.0.1 - - [11/Dec/2025 18:34:18] "[33mGET /spaces/7 HTTP/1.1[0m" 404 -
+2025-12-11 18:34:31,464 werkzeug INFO  * Detected change in 'C:\\Users\\nk041\\Desktop\\ParkingPlaceDetectionApp\\ParkingCoreService\\app\\parking_logger.py', reloading
+2025-12-11 18:34:31,620 werkzeug INFO  * Restarting with stat

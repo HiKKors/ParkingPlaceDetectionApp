@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+    <link rel="stylesheet" href="../static/css/main_menu.css">
+    {% block style %}
+    {% endblock %}
+    {% block scripts %}{% endblock %}
+    <title>{% block title %}{% endblock %}</title>
+</head>
+<body>
+    <nav class="main-menu">
+        <ul>
+            <li class="has-subnav">
+                <a href="/admin/add-parking">
+                    <i class="fa fa-car fa-2x"></i>
+                    <span class="nav-text">Управление парковками</span>
+                </a>
+            </li>
+            <li class="has-subnav">
+                <a href="/admin/user_managment">
+                    <i class="fa fa-user fa-2x"></i>
+                    <span class="nav-text">Управление пользователями</span>
+                </a>
+            </li>
+            <li class="has-subnav">
+                <a href="http://localhost:5001/auth/profile">
+                    <i class="fa fa-address-card fa-2x"></i>
+                    <span class="nav-text">Профиль</span>
+                </a>
+            </li>
+            <li class="has-subnav">
+                <a href="http://localhost:5001/auth/login">
+                    <i class="fa fa-sign-in fa-2x"></i>
+                    <span class="nav-text">Войти</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    {% block content %}
+    {% endblock %}
+
+    <!-- Блок дополнительного js -->
+    {% block extra_js %}
+    {% endblock %}
+</body>
+</html>

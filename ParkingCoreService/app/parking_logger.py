@@ -12,7 +12,7 @@ class RequestFormatter(logging.Formatter):
         return super().format(record)
 
 logging.basicConfig(
-    filename='./parking_core_logs.log',
+    filename='ParkingCoreService/app/parking_core_logs.log',
     filemode='a',
     format='%(asctime)s,%(msecs)03d %(name)s %(levelname)s %(message)s', datefmt='%Y-%m-%d %H:%M:%S',
     level=logging.INFO

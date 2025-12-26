@@ -1,13 +1,248 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8" />
-    <title>Профиль</title>
-</head>
-<body>
-    <h1>Profile</h1>
-    <p>Username: {{ username }}</p>
-    <p>Public ID: {{ public_id }}</p>
-    <a href="/auth/logout">Logout</a>
-</body>
-</html>
+{% extends "menu_layout.html" %}
+
+{% block style %}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+<style>
+:root {
+      --primary: #3b82f6;
+      --primary-dark: #2563eb;
+      --bg: #f8fafc;
+      --card: #ffffff;
+      --text: #1e293b;
+      --text-muted: #64748b;
+      --border: #e2e8f0;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+    }
+
+    .profile-card {
+      width: 100%;
+      max-width: 460px;
+      background: var(--card);
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+      overflow: hidden;
+      border: 1px solid var(--border);
+    }
+
+    .header {
+      background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+      padding: 60px 30px 40px;
+      text-align: center;
+      color: white;
+      position: relative;
+    }
+
+    .header::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%;
+      height: 100%;
+      background: url('https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=80') center/cover;
+      opacity: 0.15;
+    }
+
+    .avatar {
+      width: 110px;
+      height: 110px;
+      border-radius: 50%;
+      border: 4px solid white;
+      background: white;
+      margin: 0 auto 15px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+      overflow: hidden;
+    }
+
+    .avatar img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .name {
+      font-size: 1.8rem;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+
+    .email {
+      font-size: 1rem;
+      opacity: 0.9;
+    }
+
+    .body {
+      padding: 40px 30px;
+    }
+
+    .info-row {
+      display: flex;
+      justify-content: space-between;
+      padding: 18px 0;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .info-row:last-child {
+      border-bottom: none;
+    }
+
+    .label {
+      font-weight: 500;
+      color: var(--text-muted);
+    }
+
+    .value {
+      font-weight: 600;
+      color: var(--text);
+    }
+
+    .edit-btn {
+      width: 100%;
+      margin-top: 30px;
+      padding: 14px;
+      background: var(--primary);
+      color: white;
+      border: none;
+      border-radius: 12px;
+      font-size: 1.1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.3s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    .edit-btn:hover {
+      background: var(--primary-dark);
+      transform: translateY(-3px);
+    }
+
+    .input-field {
+      width: 100%;
+      padding: 12px 16px;
+      margin: 12px 0;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      font-size: 1rem;
+      background: #f9fafb;
+    }
+
+    .input-field:focus {
+      outline: none;
+      border-color: var(--primary);
+      box-shadow: 0 0 0 3px rgba(59,130,246,0.2);
+    }
+
+    .save-btn {
+      background: #16a34a;
+    }
+
+    .save-btn:hover {
+      background: #15803d;
+    }
+
+    .hidden { display: none !important; }
+</style>
+{% endblock %}
+
+{% block title %}Профиль{% endblock %}
+
+{% block content %}
+<div class="profile-card">
+    <div class="header">
+      <div class="avatar">
+        <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=800&q=80" alt="Фото">
+      </div>
+      <h1 class="name" id="full-name-display">{{ user.name }} {{ user.surname }}</h1>
+      <p class="email" id="email-display">{{ user.email }}</p>
+    </div>
+
+    <div class="body" id="view-mode">
+      <div class="info-row">
+        <span class="label">Имя</span>
+        <span class="value" id="first-name-display">{{ user.name }}</span>
+      </div>
+      <div class="info-row">
+        <span class="label">Фамилия</span>
+        <span class="value" id="last-name-display">{{ user.surname }}</span>
+      </div>
+      <div class="info-row">
+        <span class="label">Email</span>
+        <span class="value" id="email-view">{{ user.email }}</span>
+      </div>
+
+      <button class="edit-btn" onclick="enterEditMode()">
+        <i class="fas fa-edit"></i> Редактировать профиль
+      </button>
+    </div>
+
+    <div class="body hidden" id="edit-mode">
+    <form method="post" action="{{ url_for('auth.update_user_profile', user_id=user.id) }}">
+      
+      <input type="text"
+            name="name"
+            id="first-name-input"
+            class="input-field"
+            placeholder="Имя"
+            value="{{ user.name }}"
+            required>
+
+      <input type="text"
+            name="surname"
+            id="last-name-input"
+            class="input-field"
+            placeholder="Фамилия"
+            value="{{ user.surname }}"
+            required>
+
+      <input type="email"
+            name="email"
+            id="email-input"
+            class="input-field"
+            placeholder="Email"
+            value="{{ user.email }}"
+            required>
+
+      <button type="submit" class="edit-btn save-btn">
+        <i class="fas fa-check"></i> Сохранить
+      </button>
+
+      <button type="button"
+              class="edit-btn"
+              style="margin-top:10px; background:#ef4444;"
+              onclick="cancelEdit()">
+        <i class="fas fa-times"></i> Отмена
+      </button>
+
+    </form>
+  </div>
+
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+  function enterEditMode() {
+    document.getElementById('view-mode').classList.add('hidden');
+    document.getElementById('edit-mode').classList.remove('hidden');
+  }
+
+  function cancelEdit() {
+    document.getElementById('edit-mode').classList.add('hidden');
+    document.getElementById('view-mode').classList.remove('hidden');
+  }
+</script>
+{% endblock %}

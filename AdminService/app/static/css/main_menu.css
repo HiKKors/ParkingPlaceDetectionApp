@@ -1,0 +1,135 @@
+@import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600);
+
+:root {
+    --menu-bg: #212121;
+    --menu-border: #e5e5e5;
+    --text-color: #999;
+    --text-hover: #fff;
+    --bg-hover: #000000;
+    --icon-size: 1.5em;
+    --menu-collapsed-width: 60px;
+    --menu-expanded-width: 270px;
+    --transition-time: 0.3s;
+}
+
+.fa {
+    font-size: var(--icon-size);
+}
+
+.main-menu {
+    background: var(--menu-bg);
+    border-right: 1px solid var(--menu-border);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    width: var(--menu-collapsed-width);
+    overflow: hidden;
+    transition: width var(--transition-time) ease;
+    z-index: 1000;
+}
+
+.main-menu:hover,
+.main-menu.expanded {
+    width: var(--menu-expanded-width);
+    overflow: visible;
+}
+
+.main-menu > ul {
+    margin: 7px 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-menu li {
+    position: relative;
+    display: block;
+    width: var(--menu-expanded-width);
+}
+
+.main-menu li > a {
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: var(--text-color);
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    padding: 10px 0;
+    transition: all var(--transition-time) ease;
+}
+
+.main-menu li > a i {
+    flex-shrink: 0;
+    width: var(--menu-collapsed-width);
+    text-align: center;
+    transition: color var(--transition-time) ease;
+}
+
+.main-menu .nav-text {
+    flex-grow: 1;
+    white-space: nowrap;
+    opacity: 0;
+    transition: opacity var(--transition-time) ease;
+}
+
+.main-menu:hover .nav-text,
+.main-menu.expanded .nav-text {
+    opacity: 1;
+}
+
+.main-menu li:hover > a,
+.main-menu li.active > a {
+    color: var(--text-hover);
+    background-color: var(--bg-hover);
+}
+
+.main-menu li:hover > a i,
+.main-menu li.active > a i {
+    color: var(--text-hover);
+}
+
+.no-touch .scrollable.hover {
+    overflow-y: hidden;
+}
+
+.no-touch .scrollable.hover:hover {
+    overflow-y: auto;
+    overflow: visible;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+nav {
+    user-select: none;
+}
+
+nav ul,
+nav li {
+    outline: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.area {
+    float: left;
+    background: #e2e2e2;
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 768px) {
+    .main-menu {
+        width: var(--menu-collapsed-width);
+    }
+
+    .main-menu.expanded {
+        width: var(--menu-expanded-width);
+    }
+}

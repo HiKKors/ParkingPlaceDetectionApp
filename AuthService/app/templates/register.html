@@ -3,15 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/login.css">
     <title>Регистрация</title>
 </head>
 <body>
+<section>
     <h1>Регистрация</h1>
     <form action="/auth/register" method="Post">
-        <label>Логин: <input type="text" name="username" required></label><br />
-        <label>Пароль <input type="text" name="password" required></label><br />
+        <div class="inputbox">
+            <label>Имя: <input type="text" name="name" required></label><br />
+        </div>
+        <div class="inputbox">
+            <label>Фамилия: <input type="text" name="surname" required></label><br />
+        </div>
+        <div class="inputbox">
+            <label>Email: <input type="text" name="email" required></label><br />
+        </div>
+        <div class="inputbox">
+            <label>Пароль <input type="password" name="password" required></label><br />
+        </div>
         <button type="submit">Регистрация</button>
     </form>
-    <p>Уже есть аккаунт? <a href="/auth/login">Войти</a></p>
+    <div class="register">
+        <p>Уже есть аккаунт? <a href="/auth/login">Войти</a></p>
+    </div>
+</section>
 </body>
 </html>

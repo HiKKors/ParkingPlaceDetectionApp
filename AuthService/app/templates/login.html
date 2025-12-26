@@ -3,15 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/login.css">
     <title>Вход</title>
 </head>
 <body>
+<section>
     <h1>Вход</h1>
     <form action="/auth/login" method="post">
-        <label>Логин: <input type="text" name="username" required></label><br />
-        <label>Пароль: <input type="text" name="password" required></label><br />
+        <div class="inputbox">
+            <label>Email: <input type="text" name="email" required></label><br />
+        </div>
+        <div class="inputbox">
+            <label>Пароль: <input type="password" name="password" required></label><br />
+        </div>
+        
         <button type="submit">Войти</button>
     </form>
-    <p>Еще нет аккаунта? <a href="/auth/register">Зарегистрироваться</a></p>
+    <div class="register">
+        <p>Еще нет аккаунта? <a href="/auth/register">Зарегистрироваться</a></p>
+    </div>
+</section>
 </body>
 </html>

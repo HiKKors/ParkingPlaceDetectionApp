@@ -1,0 +1,413 @@
+{% extends "menu_layout.html" %}
+
+{% block title %}Схема парковки{% endblock %}
+{% block style %}
+<link rel="stylesheet" href="../static/css/parking_schema.css">
+<link rel="stylesheet" href="/static/css/main_menu.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+{% endblock %}
+
+{% block content %}
+<div class="container parking-scheme-container">
+    <div class="row">
+        <div class="col-lg-9 col-md-8">
+            <h2>Схема парковки — Астрахань, Академика Королева театр</h2>
+            
+            <div class="status-info">
+                <span class="free">Свободно: <strong id="free-count">0</strong></span>
+                <span class="occupied">Занято: <strong id="occupied-count">0</strong></span>
+                <span class="total">Всего мест: 20</span>
+                <a href="http://localhost:5003/user-activity/send-feedback" class="btn btn-primary" style="background-color: #27ae60;">Оставить отзыв</a>
+                <button id="favorite-btn" class="btn btn-outline-warning ms-3" title="Добавить в избранное">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                        <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.53.53 0 0 0-.494 0z"/>
+                    </svg>
+                    <span class="favorite-text">В избранное</span>
+                </button>
+            </div>
+
+            <!-- SVG-схема параллельной парковки вдоль дороги -->
+            <svg viewBox="0 0 1400 600" xmlns="http://www.w3.org/2000/svg" id="parking-svg">
+                <!-- Фон асфальта -->
+                <rect width="1400" height="600" fill="#3c3c3c"/>
+
+                <!-- Центральная дорога -->
+                <rect x="0" y="220" width="1400" height="160" fill="#4d4d4d"/>
+                <line x1="0" y1="300" x2="1400" y2="300" stroke="#888" stroke-width="10" stroke-dasharray="50,40"/>
+
+                <!-- Верхняя сторона (места 1-10) -->
+                {% for i in numbers %}
+                <g>
+                    <rect id="spot-{{ i }}" data-spot="{{ i }}" class="parking-spot free" x="{{ 50 + (i-1)*130 }}" y="80" width="120" height="120" rx="10"/>
+                    <!-- Разметка: боковые линии и верхняя пунктирная -->
+                    <line x1="{{ 50 + (i-1)*130 }}" y1="80" x2="{{ 50 + (i-1)*130 }}" y2="200" stroke="white" stroke-width="5"/>
+                    <line x1="{{ 170 + (i-1)*130 }}" y1="80" x2="{{ 170 + (i-1)*130 }}" y2="200" stroke="white" stroke-width="5"/>
+                    <line x1="{{ 50 + (i-1)*130 }}" y1="200" x2="{{ 170 + (i-1)*130 }}" y2="200" stroke="white" stroke-width="5" stroke-dasharray="15,15"/>
+                    <!-- T-образные ограничители на концах (для первого и последнего) -->
+                    {% if i == 1 %}
+                    <line x1="{{ 50 + (i-1)*130 - 20 }}" y1="140" x2="{{ 50 + (i-1)*130 + 20 }}" y2="140" stroke="white" stroke-width="5"/>
+                    {% endif %}
+                    {% if i == 10 %}
+                    <line x1="{{ 170 + (i-1)*130 - 20 }}" y1="140" x2="{{ 170 + (i-1)*130 + 20 }}" y2="140" stroke="white" stroke-width="5"/>
+                    {% endif %}
+                    <text x="{{ 110 + (i-1)*130 }}" y="140" fill="white" font-size="40" text-anchor="middle" font-weight="bold">{{ i }}</text>
+                </g>
+                {% endfor %}    
+  
+
+                {% for i in range(1, 11) %}
+                <g>
+                    {% set index = i - 1 %}
+                    {% set spot_id = i + 10 %}
+
+                    <rect id="spot-{{ spot_id }}"
+                        data-spot="{{ spot_id }}"
+                        class="parking-spot free"
+                        x="{{ 50 + index * 130 }}"
+                        y="400"
+                        width="120"
+                        height="120"
+                        rx="10"/>
+
+                    <line x1="{{ 50 + index * 130 }}" y1="400"
+                        x2="{{ 50 + index * 130 }}" y2="520"
+                        stroke="white" stroke-width="5"/>
+
+                    <line x1="{{ 170 + index * 130 }}" y1="400"
+                        x2="{{ 170 + index * 130 }}" y2="520"
+                        stroke="white" stroke-width="5"/>
+
+                    <line x1="{{ 50 + index * 130 }}" y1="400"
+                        x2="{{ 170 + index * 130 }}" y2="400"
+                        stroke="white" stroke-width="5"
+                        stroke-dasharray="15,15"/>
+
+                    {% if i == 1 %}
+                    <line x1="{{ 50 + index * 130 - 20 }}" y1="460"
+                        x2="{{ 50 + index * 130 + 20 }}" y2="460"
+                        stroke="white" stroke-width="5"/>
+                    {% endif %}
+
+                    {% if i == 10 %}
+                    <line x1="{{ 170 + index * 130 - 20 }}" y1="460"
+                        x2="{{ 170 + index * 130 + 20 }}" y2="460"
+                        stroke="white" stroke-width="5"/>
+                    {% endif %}
+
+                    <text x="{{ 110 + index * 130 }}" y="460"
+                        fill="white"
+                        font-size="40"
+                        text-anchor="middle"
+                        font-weight="bold">
+                        {{ spot_id }}
+                    </text>
+                </g>
+                {% endfor %}
+
+            </svg>
+        </div>
+        <div class="col-lg-3 col-md-4 reviews-column">
+            <h3 class="text-center mb-4">Отзывы</h3>
+            <div id="reviews-list" class="reviews-scroll">
+                <div class="review-item">
+                    <h5 class="mb-1">Иван Петров</h5>
+                    <p class="mb-2">Отличная парковка рядом с театром! Всегда есть свободные места, удобный въезд.</p>
+                    <div class="review-stars">
+                        <span class="filled">★</span><span class="filled">★</span><span class="filled">★</span><span class="filled">★</span><span class="filled">★</span>
+                    </div>
+                </div>
+
+                <div class="review-item">
+                    <h5 class="mb-1">Мария Сидорова</h5>
+                    <p class="mb-2">Удобно парковаться перед спектаклем. Цены приемлемые, охрана есть.</p>
+                    <div class="review-stars">
+                        <span class="filled">★</span><span class="filled">★</span><span class="filled">★</span><span class="filled">★</span><span class="empty">☆</span>
+                    </div>
+                </div>
+
+                <div class="review-item">
+                    <h5 class="mb-1">Алексей Кузнецов</h5>
+                    <p class="mb-2">Парковка чистая, разметка чёткая. Минус — иногда долго выезжать после окончания мероприятия.</p>
+                    <div class="review-stars">
+                        <span class="filled">★</span><span class="filled">★</span><span class="filled">★</span><span class="filled">★</span><span class="empty">☆</span>
+                    </div>
+                </div>
+
+                <div class="review-item">
+                    <h5 class="mb-1">Ольга Иванова</h5>
+                    <p class="mb-2">Близко к театру, но места быстро занимают. Приезжаю за час — всегда нахожу.</p>
+                    <div class="review-stars">
+                        <span class="filled">★</span><span class="filled">★</span><span class="filled">★</span><span class="empty">☆</span><span class="empty">☆</span>
+                    </div>
+                </div>
+
+                <div class="review-item">
+                    <h5 class="mb-1">new user</h5>
+                    <p class="mb-2">Отличная парковка, хорошо видно разметку</p>
+                    <div class="review-stars">
+                        <span class="filled">★</span><span class="filled">★</span><span class="filled">★</span><span class="filled">★</span><span class="filled">★</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .parking-scheme-container {
+        max-width: 1400px;
+        margin: 20px auto;
+        text-align: center;
+    }
+    #parking-svg {
+        width: 100%;
+        max-width: 1400px;
+        height: auto;
+        border: 3px solid #222;
+        border-radius: 12px;
+        background: #3c3c3c;
+        box-shadow: 0 6px 25px rgba(0,0,0,0.6);
+    }
+    .parking-spot {
+        stroke: white;
+        stroke-width: 6;
+        cursor: pointer;
+        transition: fill 0.4s ease;
+    }
+    .parking-spot.free { fill: #27ae60; }
+    .parking-spot.occupied { fill: #c0392b; }
+    .parking-spot.disabled { fill: #7f8c8d; opacity: 0.7; }
+    .status-info {
+        margin: 25px 0;
+        font-size: 22px;
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+    }
+    .free { color: #27ae60; }
+    .occupied { color: #c0392b; }
+    .total { color: #bdc3c7; }
+    .review-stars {
+        color: #ffc107; /* Gold color for stars */
+        font-size: 1.2rem;
+    }
+    .review-stars .filled {
+        color: #ffc107;
+    }
+    .review-stars .empty {
+        color: #e4e5e9;
+    }
+    #favorite-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    #favorite-btn.active {
+        background-color: #ffc107;
+        border-color: #ffc107;
+        color: #212529;
+    }
+
+    #favorite-btn.active svg {
+        fill: currentColor;
+    }
+    .reviews-column {
+        display: flex;
+        flex-direction: column;
+        height: 100%; /* Чтобы колонка растягивалась на высоту row */
+    }
+    .reviews-scroll {
+        flex: 1;
+        overflow-y: auto;
+        padding-right: 10px; /* место под полосу прокрутки */
+        max-height: 600px; /* Ограничиваем высоту под высоту SVG */
+    }
+
+    .reviews-scroll::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    .reviews-scroll::-webkit-scrollbar-track {
+        background: #f1f1f1;
+        border-radius: 10px;
+    }
+
+    .reviews-scroll::-webkit-scrollbar-thumb {
+        background: #27ae60;
+        border-radius: 10px;
+    }
+
+    .reviews-scroll::-webkit-scrollbar-thumb:hover {
+        background: #219653;
+    }
+
+    .review-item {
+        background-color: #f8f9fa;
+        border: 1px solid #dee2e6;
+        border-radius: 12px;
+        padding: 16px;
+        margin-bottom: 16px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .review-item:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+    }
+
+    .review-item:last-child {
+        margin-bottom: 0;
+    }
+    #reviews-list .list-group-item {
+        background-color: #f8f9fa;
+        border: 1px solid #dee2e6;
+        transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    #reviews-list .list-group-item:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+
+    .review-stars {
+        font-size: 1.3rem;
+        letter-spacing: 2px;
+    }
+</style>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+
+        fetch(`/parking/spaces/7`)
+            .then(r => r.json())
+            .then(spotsData => {
+                const spotMap = {};
+                spotsData.forEach(s => spotMap[s.spot_id] = s.status);
+
+                let free = 0, occupied = 0;
+
+                document.querySelectorAll('.parking-spot').forEach(el => {
+                    const id = parseInt(el.dataset.spot);
+                    if (spotMap[id] === undefined) {
+                        el.classList.add('disabled');
+                        el.classList.remove('free');
+                    } else if (spotMap[id] === 'free') {
+                        el.classList.add('free');
+                        el.classList.remove('occupied', 'disabled');
+                        free++;
+                    } else if (spotMap[id] === 'occupied') {
+                        el.classList.add('occupied');
+                        el.classList.remove('free', 'disabled');
+                        occupied++;
+                    }
+                });
+
+                document.getElementById('free-count').textContent = free;
+                document.getElementById('occupied-count').textContent = occupied;
+            })
+            .catch(err => console.error('Ошибка загрузки статуса мест:', err));
+    });
+
+    document.addEventListener('DOMContentLoaded', function () {
+
+    const TOTAL_SPOTS = 20;
+
+        // Машины, которые "стоят давно"
+        const permanentlyOccupied = new Set([2, 5, 9, 12, 17]);
+
+        const spotsState = {};
+
+        for (let i = 1; i <= TOTAL_SPOTS; i++) {
+            spotsState[i] = permanentlyOccupied.has(i) ? 'occupied' : 'free';
+        }
+
+        function render() {
+            let free = 0;
+            let occupied = 0;
+
+            document.querySelectorAll('.parking-spot').forEach(el => {
+                const id = Number(el.dataset.spot);
+                el.classList.remove('free', 'occupied');
+
+                if (spotsState[id] === 'occupied') {
+                    el.classList.add('occupied');
+                    occupied++;
+                } else {
+                    el.classList.add('free');
+                    free++;
+                }
+            });
+
+            document.getElementById('free-count').textContent = free;
+            document.getElementById('occupied-count').textContent = occupied;
+        }
+
+        render();
+
+        setInterval(() => {
+            const changeable = Object.keys(spotsState)
+                .map(Number)
+                .filter(id => !permanentlyOccupied.has(id));
+
+            const id = changeable[Math.floor(Math.random() * changeable.length)];
+            spotsState[id] = spotsState[id] === 'free' ? 'occupied' : 'free';
+
+            render();
+        }, 3000);
+    });
+
+    document.addEventListener('DOMContentLoaded', function() {
+        // Fetch reviews (assuming endpoint /parking/feedback/7 returns array of {first_name, last_name, comment, rating})
+        fetch(`/parking/feedback/7`)
+            .then(response => response.json())
+            .then(reviews => {
+                const reviewsList = document.getElementById('reviews-list');
+                reviewsList.innerHTML = ''; // Clear existing
+                if (reviews.length === 0) {
+                    reviewsList.innerHTML = '<div class="review-item text-center">Нет отзывов</div>';
+                } else {
+                    reviews.forEach(review => {
+                        const reviewItem = document.createElement('div');
+                        reviewItem.classList.add('review-item');
+                        reviewItem.innerHTML = `
+                            <h5 class="mb-1">${review.first_name} ${review.last_name}</h5>
+                            <p class="mb-2">${review.comment}</p>
+                            <div class="review-stars">
+                                ${generateStars(review.rating)}
+                            </div>
+                        `;
+                        reviewsList.appendChild(reviewItem);
+                    });
+                }
+            })
+            .catch(err => console.error('Ошибка загрузки отзывов:', err));
+
+        function generateStars(rating) {
+            let stars = '';
+            for (let i = 1; i <= 5; i++) {
+                if (i <= rating) {
+                    stars += '<span class="filled">&#9733;</span>'; // Filled star
+                } else {
+                    stars += '<span class="empty">&#9734;</span>'; // Empty star
+                }
+            }
+            return stars;
+        }
+    });
+
+    document.getElementById('favorite-btn').addEventListener('click', function() {
+        this.classList.toggle('active');
+        const text = this.querySelector('.favorite-text');
+        if (this.classList.contains('active')) {
+            text.textContent = 'В избранном';
+        } else {
+            text.textContent = 'В избранное';
+        }
+    });
+</script>
+{% endblock %}

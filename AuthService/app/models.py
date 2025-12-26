@@ -6,7 +6,9 @@ from sqlalchemy.dialects.postgresql import ARRAY
 class User(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     public_id = db.Column(db.String(50), unique=True, nullable=False, default = lambda: str(uuid.uuid4()))
-    username = db.Column(db.String(50), unique=True, nullable=False)
+    name = db.Column(db.String(50), nullable=False)
+    surname = db.Column(db.String(50), nullable=False)
+    email = db.Column(db.String(50), unique=True, nullable=False)
     password_hash = db.Column(db.String(256), nullable=False)
     
     roles = db.Column(ARRAY(db.String), default=[])

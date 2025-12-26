@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/main_menu.css">
+    {% block style %}
+    {% endblock %}
+    {% block scripts %}{% endblock %}
+    <title>{% block title %}{% endblock %}</title>
+</head>
+<body>
+    <nav class="main-menu">
+        <ul>
+            <li class="has-subnav">
+                <a href="http://localhost:5002/parking/spaces">
+                    <i class="fa fa-car fa-2x"></i>
+                    <span class="nav-text">Все парковки</span>
+                </a>
+            </li>
+            <li class="has-subnav">
+                <a href="http://localhost:5002/parking/favorites">
+                    <i class="fa fa-star fa-2x"></i>
+                    <span class="nav-text">Избранные парковки</span>
+                </a>
+            </li>
+            <li class="has-subnav">
+                <a href="http://localhost:5001/auth/profile">
+                    <i class="fa fa-user fa-2x"></i>
+                    <span class="nav-text">Профиль</span>
+                </a>
+            </li>
+            <li class="has-subnav">
+                <a href="http://localhost:5001/auth/login">
+                    <i class="fa fa-sign-in fa-2x"></i>
+                    <span class="nav-text">Войти</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    {% block content %}
+    {% endblock %}
+
+    <!-- Блок дополнительного js -->
+    {% block extra_js %}
+    {% endblock %}
+</body>
+</html>

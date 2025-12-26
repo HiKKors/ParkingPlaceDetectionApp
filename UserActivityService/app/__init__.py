@@ -1,6 +1,6 @@
 from flask import Flask
 from .extensions import db
-from .routes import user_activity_bp
+from .routes import activity_bp
 from config import Config
 
 def create_app():
@@ -10,7 +10,7 @@ def create_app():
     db.init_app(app)
     # jwt.init_app(app)
     
-    app.register_blueprint(user_activity_bp, url_prefix='/user-activity')
+    app.register_blueprint(activity_bp, url_prefix='/user-activity')
     
     with app.app_context():
         db.create_all()

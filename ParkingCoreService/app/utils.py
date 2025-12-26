@@ -3,7 +3,7 @@ import logging
 
 logger = logging.getLogger(__name__)
 
-YANDEX_API_KEY = '80842b69-5d43-45e4-bd58-51f372f4f673'  # Поместите сюда ваш реальный API ключ
+YANDEX_API_KEY = '80842b69-5d43-45e4-bd58-51f372f4f673'  
 
 def get_coordinates(address):
     try:
